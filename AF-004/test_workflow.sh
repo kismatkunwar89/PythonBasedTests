@@ -36,15 +36,19 @@ echo "Step 1: Streaming VSS Filter"
 echo "========================================"
 echo ""
 
-python3 stream_filter_vss.py \
-    --mft "$MFT_FILE" \
-    --usn "$USN_FILE" \
-    --output-dir "$OUTPUT_DIR" \
-    --output-format json-ld
+if [ -f "$OUTPUT_DIR/mft_vss_filtered.jsonld" ] && [ -f "$OUTPUT_DIR/usn_vss_filtered.jsonld" ]; then
+    echo "Filtered files already exist in $OUTPUT_DIR. Skipping filter step."
+else
+    python3 stream_filter_vss.py \
+        --mft "$MFT_FILE" \
+        --usn "$USN_FILE" \
+        --output-dir "$OUTPUT_DIR" \
+        --output-format json-ld
 
-if [ $? -ne 0 ]; then
-    echo "ERROR: Filtering failed"
-    exit 1
+    if [ $? -ne 0 ]; then
+        echo "ERROR: Filtering failed"
+        exit 1
+    fi
 fi
 
 echo ""

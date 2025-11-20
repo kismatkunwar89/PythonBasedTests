@@ -42,15 +42,19 @@ echo "Step 1: Streaming Event Log Filter"
 echo "========================================"
 echo ""
 
-python3 stream_filter_evtx.py \
-    --usn "$USN_FILE" \
-    --security "$SECURITY_FILE" \
-    --system "$SYSTEM_FILE" \
-    --output-dir "$OUTPUT_DIR"
+if [ -f "$OUTPUT_DIR/security_1102_filtered.jsonld" ] && [ -f "$OUTPUT_DIR/system_events.jsonld" ] && [ -f "$OUTPUT_DIR/usn_security_filtered.jsonld" ]; then
+    echo "Filtered files already exist in $OUTPUT_DIR. Skipping filter step."
+else
+    python3 stream_filter_evtx.py \
+        --usn "$USN_FILE" \
+        --security "$SECURITY_FILE" \
+        --system "$SYSTEM_FILE" \
+        --output-dir "$OUTPUT_DIR"
 
-if [ $? -ne 0 ]; then
-    echo "ERROR: Filtering failed"
-    exit 1
+    if [ $? -ne 0 ]; then
+        echo "ERROR: Filtering failed"
+        exit 1
+    fi
 fi
 
 echo ""

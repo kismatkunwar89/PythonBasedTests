@@ -66,11 +66,15 @@ echo "Step 1: Streaming Filter (2.3 GB → KB)"
 echo "======================================================================"
 echo
 
-python3 stream_filter_af002.py \
-    --mft "$MFT_LARGE" \
-    --usn "$USN_LARGE" \
-    --history "$HISTORY_FILE" \
-    --output-dir "$OUTPUT_DIR"
+if [ -f "$OUTPUT_DIR/mft_indexeddb_filtered.jsonld" ] && [ -f "$OUTPUT_DIR/history_all.jsonld" ] && [ -f "$OUTPUT_DIR/usn_history_filtered.jsonld" ]; then
+    echo "Filtered files already exist in $OUTPUT_DIR. Skipping filter step."
+else
+    python3 stream_filter_af002.py \
+        --mft "$MFT_LARGE" \
+        --usn "$USN_LARGE" \
+        --history "$HISTORY_FILE" \
+        --output-dir "$OUTPUT_DIR"
+fi
 
 echo
 
