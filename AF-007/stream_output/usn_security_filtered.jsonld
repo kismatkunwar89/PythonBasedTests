@@ -1,0 +1,3764 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:usn-entry--e08bd84a-ce50-422f-8d2f-debda1a1e4c7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--e08bd84a-ce50-422f-8d2f-debda1a1e4c7",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:46.7707289+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--e08bd84a-ce50-422f-8d2f-debda1a1e4c7",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "245306704"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:46.7707289+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "245306704"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--c55ee7a8-80ab-45b4-9f41-c1dc9af9c456",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--c55ee7a8-80ab-45b4-9f41-c1dc9af9c456",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.0976479+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--c55ee7a8-80ab-45b4-9f41-c1dc9af9c456",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246645808"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.0976479+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246645808"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--64badb81-f600-4630-ac72-d1558234547c",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--64badb81-f600-4630-ac72-d1558234547c",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.0976479+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--64badb81-f600-4630-ac72-d1558234547c",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246648264"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.0976479+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246648264"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--fb8fec4c-4c57-48d8-afd1-6e00f831c157",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--fb8fec4c-4c57-48d8-afd1-6e00f831c157",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--fb8fec4c-4c57-48d8-afd1-6e00f831c157",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246655296"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246655296"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--c9476b96-127d-45ee-973d-b345b559c286",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--c9476b96-127d-45ee-973d-b345b559c286",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--c9476b96-127d-45ee-973d-b345b559c286",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105728"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "6"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246655488"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246655488"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--24072442-248f-4261-9611-ef544726a548",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--24072442-248f-4261-9611-ef544726a548",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--24072442-248f-4261-9611-ef544726a548",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "110276"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246656664"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1067219+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246656664"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--81312d20-5a13-44aa-aa20-f6443e987954",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--81312d20-5a13-44aa-aa20-f6443e987954",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1119650+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--81312d20-5a13-44aa-aa20-f6443e987954",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246657432"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1119650+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246657432"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--8094743a-cc84-4c9e-86a6-88a67462dfeb",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--8094743a-cc84-4c9e-86a6-88a67462dfeb",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1119650+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--8094743a-cc84-4c9e-86a6-88a67462dfeb",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246658632"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1119650+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246658632"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--f2fa27b9-508c-414e-ad21-79db76c7f43b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--f2fa27b9-508c-414e-ad21-79db76c7f43b",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--f2fa27b9-508c-414e-ad21-79db76c7f43b",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246662408"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246662408"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--fbbf243c-f666-492d-af56-fce3922e33a3",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--fbbf243c-f666-492d-af56-fce3922e33a3",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--fbbf243c-f666-492d-af56-fce3922e33a3",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246664032"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246664032"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--07958217-35b6-4e20-99dd-6e4f538d4597",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--07958217-35b6-4e20-99dd-6e4f538d4597",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--07958217-35b6-4e20-99dd-6e4f538d4597",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105728"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "6"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246664224"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1287077+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246664224"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--1a3f1317-1c1b-48e5-ab4c-a60f12fb80e8",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--1a3f1317-1c1b-48e5-ab4c-a60f12fb80e8",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1624332+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--1a3f1317-1c1b-48e5-ab4c-a60f12fb80e8",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "110276"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246664400"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:28:47.1624332+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246664400"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--468d0348-09c9-40d2-9be0-e2d136159aa2",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--468d0348-09c9-40d2-9be0-e2d136159aa2",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:48:43.6835889+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--468d0348-09c9-40d2-9be0-e2d136159aa2",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "246716416"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:48:43.6835889+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "246716416"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--2e9240d4-17ff-4fec-b4af-d2abef14c389",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--2e9240d4-17ff-4fec-b4af-d2abef14c389",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:49:44.8929611+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--2e9240d4-17ff-4fec-b4af-d2abef14c389",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "266966024"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:49:44.8929611+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "266966024"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b6bdef5e-ca76-41d9-b98d-f8ea231281db",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b6bdef5e-ca76-41d9-b98d-f8ea231281db",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:49:49.3462418+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b6bdef5e-ca76-41d9-b98d-f8ea231281db",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "269427504"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:49:49.3462418+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "269427504"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--57481e0c-e0b0-4aa4-896d-4e7956880ca5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--57481e0c-e0b0-4aa4-896d-4e7956880ca5",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:50:46.4083085+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--57481e0c-e0b0-4aa4-896d-4e7956880ca5",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274523600"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:50:46.4083085+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274523600"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b738ec8b-845a-4e65-932a-ec185f577a20",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b738ec8b-845a-4e65-932a-ec185f577a20",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b738ec8b-845a-4e65-932a-ec185f577a20",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111024"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274704376"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274704376"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--3cecb427-1a91-43ce-8574-e8b357bcadc0",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--3cecb427-1a91-43ce-8574-e8b357bcadc0",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--3cecb427-1a91-43ce-8574-e8b357bcadc0",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111024"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274704544"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274704544"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0d4b81d8-2081-4f56-8751-15477fe0f5fc",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0d4b81d8-2081-4f56-8751-15477fe0f5fc",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0d4b81d8-2081-4f56-8751-15477fe0f5fc",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111024"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274704712"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:23.7382002+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274704712"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--949a38ee-2840-4b95-9e99-bdfd376e32e2",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--949a38ee-2840-4b95-9e99-bdfd376e32e2",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--949a38ee-2840-4b95-9e99-bdfd376e32e2",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105192"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274728320"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274728320"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--e5aaa547-2859-4da9-8151-d31cb68fc600",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--e5aaa547-2859-4da9-8151-d31cb68fc600",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--e5aaa547-2859-4da9-8151-d31cb68fc600",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105192"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274728504"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274728504"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--466647ce-962f-4b46-bb35-c5eae70f985b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--466647ce-962f-4b46-bb35-c5eae70f985b",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--466647ce-962f-4b46-bb35-c5eae70f985b",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105192"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274728688"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.3631624+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274728688"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--270e2142-f3c3-4bde-8e73-2c4dfe7323b7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--270e2142-f3c3-4bde-8e73-2c4dfe7323b7",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--270e2142-f3c3-4bde-8e73-2c4dfe7323b7",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105196"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "4"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274728952"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274728952"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--c14bf340-ff69-4d52-a2d6-b4867f67662d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--c14bf340-ff69-4d52-a2d6-b4867f67662d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--c14bf340-ff69-4d52-a2d6-b4867f67662d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105196"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "4"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274729128"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274729128"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--a60a5ab7-9836-407f-836c-56a5e28a68ac",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--a60a5ab7-9836-407f-836c-56a5e28a68ac",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--a60a5ab7-9836-407f-836c-56a5e28a68ac",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105196"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "4"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274729304"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.4568334+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274729304"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0354ba7d-b3e6-4dd5-b639-d0551ee8b2ca",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0354ba7d-b3e6-4dd5-b639-d0551ee8b2ca",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0354ba7d-b3e6-4dd5-b639-d0551ee8b2ca",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109349"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274729480"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274729480"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--aec5fc44-873d-4356-9413-c77af03dafda",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--aec5fc44-873d-4356-9413-c77af03dafda",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--aec5fc44-873d-4356-9413-c77af03dafda",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109349"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274729688"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274729688"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--cf1e3020-3494-4707-adbc-39158a935307",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--cf1e3020-3494-4707-adbc-39158a935307",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--cf1e3020-3494-4707-adbc-39158a935307",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109349"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274729896"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274729896"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--071736a8-f09b-4294-9aea-3c04f816928b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--071736a8-f09b-4294-9aea-3c04f816928b",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--071736a8-f09b-4294-9aea-3c04f816928b",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111065"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274730104"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274730104"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--8bbe0982-22cd-4f02-ae6f-623c6a06c617",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--8bbe0982-22cd-4f02-ae6f-623c6a06c617",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--8bbe0982-22cd-4f02-ae6f-623c6a06c617",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111065"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274730272"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.6903342+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274730272"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0e6995a1-b64d-4205-be11-860592fb8638",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0e6995a1-b64d-4205-be11-860592fb8638",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.7081683+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0e6995a1-b64d-4205-be11-860592fb8638",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111065"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274730440"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.7081683+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274730440"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--6eec0595-55b6-43a3-963c-10dee1873642",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--6eec0595-55b6-43a3-963c-10dee1873642",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--6eec0595-55b6-43a3-963c-10dee1873642",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111066"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274730608"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274730608"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d1c048e2-aa39-48a1-8586-b56df1cbef58",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d1c048e2-aa39-48a1-8586-b56df1cbef58",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d1c048e2-aa39-48a1-8586-b56df1cbef58",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111066"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274731008"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274731008"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d98858e1-253e-4425-bec3-15de075aba28",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d98858e1-253e-4425-bec3-15de075aba28",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d98858e1-253e-4425-bec3-15de075aba28",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111066"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274731232"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:26.9409264+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274731232"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--71f94265-af7e-49d9-92da-cdf34fa539da",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--71f94265-af7e-49d9-92da-cdf34fa539da",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--71f94265-af7e-49d9-92da-cdf34fa539da",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111067"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274731456"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274731456"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--a7f6422a-5d44-425c-9869-97c7c9199216",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--a7f6422a-5d44-425c-9869-97c7c9199216",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--a7f6422a-5d44-425c-9869-97c7c9199216",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111067"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274731664"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274731664"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--ab598868-350f-439d-8fe6-85bbf4095e90",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--ab598868-350f-439d-8fe6-85bbf4095e90",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--ab598868-350f-439d-8fe6-85bbf4095e90",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111067"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274731872"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0189803+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274731872"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--457ea2af-f27c-4355-8584-3cb2e6feac43",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--457ea2af-f27c-4355-8584-3cb2e6feac43",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--457ea2af-f27c-4355-8584-3cb2e6feac43",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111068"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274732080"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          },
+          "dfc-ext:updateReasons": "FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274732080"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--70b266e5-6768-4d20-854b-6f7e030c008d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--70b266e5-6768-4d20-854b-6f7e030c008d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--70b266e5-6768-4d20-854b-6f7e030c008d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111068"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274732248"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274732248"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--41eedac0-0bb3-4194-9d27-55ead82a495d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--41eedac0-0bb3-4194-9d27-55ead82a495d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--41eedac0-0bb3-4194-9d27-55ead82a495d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111068"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "274732416"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:51:27.0494577+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "274732416"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--f5cc0588-adf2-46d9-a4d9-128635c6d362",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--f5cc0588-adf2-46d9-a4d9-128635c6d362",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:56:36.0329330+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--f5cc0588-adf2-46d9-a4d9-128635c6d362",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "276968136"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:56:36.0329330+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "276968136"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--5557c5ff-2d8f-4f95-8299-8c95d5184fa9",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--5557c5ff-2d8f-4f95-8299-8c95d5184fa9",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:57:09.5051161+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--5557c5ff-2d8f-4f95-8299-8c95d5184fa9",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "277253016"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:57:09.5051161+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "277253016"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--712a7923-309f-4c9a-b582-6e82cffe230d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--712a7923-309f-4c9a-b582-6e82cffe230d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:03:57.6451202+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--712a7923-309f-4c9a-b582-6e82cffe230d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105728"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "6"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278297080"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:03:57.6451202+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278297080"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d9d8a3c5-678f-4a82-86a1-1dd36c51eb37",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d9d8a3c5-678f-4a82-86a1-1dd36c51eb37",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:03:57.6451202+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d9d8a3c5-678f-4a82-86a1-1dd36c51eb37",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "110276"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278297256"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:03:57.6451202+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278297256"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--12899d16-bd2a-44a3-bfa7-b6a3175d0751",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--12899d16-bd2a-44a3-bfa7-b6a3175d0751",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1537088+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--12899d16-bd2a-44a3-bfa7-b6a3175d0751",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278449824"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1537088+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278449824"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--7bbae289-9db9-464f-bffd-d9f6eca469af",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--7bbae289-9db9-464f-bffd-d9f6eca469af",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--7bbae289-9db9-464f-bffd-d9f6eca469af",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278453328"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278453328"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--1fa1de62-26d6-4b73-8af9-b0c05cf08508",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--1fa1de62-26d6-4b73-8af9-b0c05cf08508",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-VerifyHardwareSecurity%4Admin.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--1fa1de62-26d6-4b73-8af9-b0c05cf08508",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111024"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278455176"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278455176"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0c783a4e-55bb-4699-9362-c47def45e8d6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0c783a4e-55bb-4699-9362-c47def45e8d6",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0c783a4e-55bb-4699-9362-c47def45e8d6",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278463432"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278463432"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--65e78b49-88a3-498e-a82a-59b637d18f13",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--65e78b49-88a3-498e-a82a-59b637d18f13",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SecurityMitigationsBroker%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--65e78b49-88a3-498e-a82a-59b637d18f13",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105192"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278465744"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278465744"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0acff952-2083-4c88-8acc-da194606d487",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0acff952-2083-4c88-8acc-da194606d487",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-UserConsentVerifier%4Audit.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0acff952-2083-4c88-8acc-da194606d487",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105196"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "4"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278465928"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278465928"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--76edf955-b774-42d4-814f-029a5381d76a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--76edf955-b774-42d4-814f-029a5381d76a",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--76edf955-b774-42d4-814f-029a5381d76a",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278466104"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278466104"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b7363eff-d453-4105-8f27-853ce23d3050",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b7363eff-d453-4105-8f27-853ce23d3050",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b7363eff-d453-4105-8f27-853ce23d3050",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109349"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278466296"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278466296"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d7fef816-344d-4443-8862-aab31fe9b706",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d7fef816-344d-4443-8862-aab31fe9b706",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Netlogon%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d7fef816-344d-4443-8862-aab31fe9b706",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111065"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278466560"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278466560"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--a5268e92-5135-47d0-ac20-f836f7145fc0",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--a5268e92-5135-47d0-ac20-f836f7145fc0",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Mitigations%4KernelMode.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--a5268e92-5135-47d0-ac20-f836f7145fc0",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105728"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "6"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278466728"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278466728"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--316d27f7-5971-4b98-8280-08c153cd7989",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--316d27f7-5971-4b98-8280-08c153cd7989",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-LessPrivilegedAppContainer%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--316d27f7-5971-4b98-8280-08c153cd7989",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "110276"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278466904"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278466904"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--bdcbee9f-3457-4b4b-b95f-e8247a2534df",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--bdcbee9f-3457-4b4b-b95f-e8247a2534df",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-EnterpriseData-FileRevocationManager%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--bdcbee9f-3457-4b4b-b95f-e8247a2534df",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111066"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278467112"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278467112"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d9e9787f-d21d-439b-b050-b556838d7ef7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d9e9787f-d21d-439b-b050-b556838d7ef7",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Audit-Configuration-Client%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d9e9787f-d21d-439b-b050-b556838d7ef7",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111067"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278467336"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278467336"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b51d49a3-c073-4043-8f2b-10e1cb9e1ee7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b51d49a3-c073-4043-8f2b-10e1cb9e1ee7",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-Adminless%4Operational.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b51d49a3-c073-4043-8f2b-10e1cb9e1ee7",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "111068"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278467544"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:44.1663127+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278467544"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b671f412-217b-4f7e-8500-31c5862981c9",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b671f412-217b-4f7e-8500-31c5862981c9",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:30.0968563+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b671f412-217b-4f7e-8500-31c5862981c9",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "278532208"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:07:30.0968563+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "278532208"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--642037f4-0600-4a23-aa14-afaee62d0334",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--642037f4-0600-4a23-aa14-afaee62d0334",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:00.2842460+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--642037f4-0600-4a23-aa14-afaee62d0334",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "279775208"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:00.2842460+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "279775208"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--ec3107e9-c56c-4e4f-bedb-36e450ef1175",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--ec3107e9-c56c-4e4f-bedb-36e450ef1175",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:32.5185946+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--ec3107e9-c56c-4e4f-bedb-36e450ef1175",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "280981976"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:32.5185946+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "280981976"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--60e41645-52aa-464a-ab8f-1217176b78a3",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--60e41645-52aa-464a-ab8f-1217176b78a3",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:37.7870573+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--60e41645-52aa-464a-ab8f-1217176b78a3",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "280988016"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:08:37.7870573+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "280988016"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--c76b0914-d8d2-4185-9450-f9ee45f13c3f",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--c76b0914-d8d2-4185-9450-f9ee45f13c3f",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:12:29.4887467+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--c76b0914-d8d2-4185-9450-f9ee45f13c3f",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "284014368"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:12:29.4887467+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "284014368"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--6d51a58c-842e-4335-9369-790e42f5e32e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--6d51a58c-842e-4335-9369-790e42f5e32e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1414376+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--6d51a58c-842e-4335-9369-790e42f5e32e",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104023"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "284160264"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1414376+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "284160264"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--f2d8037e-9670-47dc-b386-6a07f2787efc",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--f2d8037e-9670-47dc-b386-6a07f2787efc",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Windows Firewall With Advanced Security%4Firewall.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1414376+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--f2d8037e-9670-47dc-b386-6a07f2787efc",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104074"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "284160808"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1414376+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "284160808"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--6279ade0-5fbe-4f72-8c59-f37a8b0c9469",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--6279ade0-5fbe-4f72-8c59-f37a8b0c9469",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-SmbClient%4Security.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1542647+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--6279ade0-5fbe-4f72-8c59-f37a8b0c9469",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "104135"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "284163824"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1542647+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "284163824"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--949db2ba-b42a-45ea-8d12-4ed479d53658",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--949db2ba-b42a-45ea-8d12-4ed479d53658",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:extension": ".evtx",
+          "observable:filePath": "Microsoft-Windows-Security-SPP-UX-Notifications%4ActionCenter.evtx",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1542647+00:00"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--949db2ba-b42a-45ea-8d12-4ed479d53658",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109825"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "4275"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "284164896"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T06:13:10.1542647+00:00"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "284164896"
+          },
+          "dfc-ext:sourceFile": "$UsnJrnl_$J"
+        }
+      ]
+    }
+  ]
+}

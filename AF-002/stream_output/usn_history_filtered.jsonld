@@ -1,0 +1,2140 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:usn-entry--4f00ccca-03f7-464e-8534-fa5a1a27847e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--4f00ccca-03f7-464e-8534-fa5a1a27847e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:39.523892Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--4f00ccca-03f7-464e-8534-fa5a1a27847e",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461426688"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:39.523892Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461426688"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--59f29c8f-95e6-4c55-a7f2-929cb2a79009",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--59f29c8f-95e6-4c55-a7f2-929cb2a79009",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:39.523892Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--59f29c8f-95e6-4c55-a7f2-929cb2a79009",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202909"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461426784"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:39.523892Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461426784"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--fe78eb91-1ac4-412e-8db9-6c642c4500a9",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--fe78eb91-1ac4-412e-8db9-6c642c4500a9",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.077868Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--fe78eb91-1ac4-412e-8db9-6c642c4500a9",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461482560"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.077868Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461482560"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--72f38e03-1445-40f7-a2e2-c1b7c1379ea2",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--72f38e03-1445-40f7-a2e2-c1b7c1379ea2",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.095165Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--72f38e03-1445-40f7-a2e2-c1b7c1379ea2",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461483232"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.095165Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461483232"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b00a6fd8-fc31-4205-9355-b83157779b28",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b00a6fd8-fc31-4205-9355-b83157779b28",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.102210Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b00a6fd8-fc31-4205-9355-b83157779b28",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202909"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461483328"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.102210Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461483328"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--f32656b6-dc23-4a7a-9b3e-4eb0b17c8937",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--f32656b6-dc23-4a7a-9b3e-4eb0b17c8937",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.107027Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--f32656b6-dc23-4a7a-9b3e-4eb0b17c8937",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "461483840"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:46.107027Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "461483840"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--eed6de97-c40e-4238-9b68-edc9bde2d720",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--eed6de97-c40e-4238-9b68-edc9bde2d720",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:46:33.679384Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--eed6de97-c40e-4238-9b68-edc9bde2d720",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109475"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109464"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "482769584"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:46:33.679384Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "482769584"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0ac43be6-54c9-49df-8816-7110b71a1125",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0ac43be6-54c9-49df-8816-7110b71a1125",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:34.303240Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0ac43be6-54c9-49df-8816-7110b71a1125",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202909"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "487396344"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:34.303240Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "487396344"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--80dea899-401d-40f0-945c-ff14f3562214",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--80dea899-401d-40f0-945c-ff14f3562214",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:35.252240Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--80dea899-401d-40f0-945c-ff14f3562214",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109482"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "109464"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "487400184"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:35.252240Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "487400184"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--6cbfcb0d-4553-4c74-84bd-1f52d356388a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--6cbfcb0d-4553-4c74-84bd-1f52d356388a",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:35.450775Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--6cbfcb0d-4553-4c74-84bd-1f52d356388a",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "487408600"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:01:35.450775Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "487408600"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--f49f52a8-6411-476a-b614-837d0b173800",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--f49f52a8-6411-476a-b614-837d0b173800",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:36.802779Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--f49f52a8-6411-476a-b614-837d0b173800",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489306400"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:36.802779Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489306400"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--120d080b-ca84-4165-9309-668d55eb7d9e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--120d080b-ca84-4165-9309-668d55eb7d9e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.823976Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--120d080b-ca84-4165-9309-668d55eb7d9e",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489369072"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.823976Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489369072"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--28a7230f-4a85-46e3-9114-c74072791902",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--28a7230f-4a85-46e3-9114-c74072791902",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.826838Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--28a7230f-4a85-46e3-9114-c74072791902",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202909"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489369168"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.826838Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489369168"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--bcb46243-37ad-4325-869b-77442668d6af",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--bcb46243-37ad-4325-869b-77442668d6af",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.832840Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--bcb46243-37ad-4325-869b-77442668d6af",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489369248"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:46.832840Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489369248"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--2f4f2af4-0eaf-46a4-a69e-abd624ce51fb",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--2f4f2af4-0eaf-46a4-a69e-abd624ce51fb",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.670305Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--2f4f2af4-0eaf-46a4-a69e-abd624ce51fb",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202916"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489488168"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.670305Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489488168"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0ef66c5c-65c8-465f-bc4f-ff603613ea08",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0ef66c5c-65c8-465f-bc4f-ff603613ea08",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.671842Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0ef66c5c-65c8-465f-bc4f-ff603613ea08",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202909"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489488264"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.671842Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489488264"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--8fc978d2-fad8-45fe-95b0-3c2512c86e9d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--8fc978d2-fad8-45fe-95b0-3c2512c86e9d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.150976Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--8fc978d2-fad8-45fe-95b0-3c2512c86e9d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489703256"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.150976Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489703256"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--b6b1f46a-3ffd-4384-84d9-f5ec79c54f71",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--b6b1f46a-3ffd-4384-84d9-f5ec79c54f71",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--b6b1f46a-3ffd-4384-84d9-f5ec79c54f71",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489703336"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489703336"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0ee3195a-f005-4516-b51c-a79973047c88",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0ee3195a-f005-4516-b51c-a79973047c88",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0ee3195a-f005-4516-b51c-a79973047c88",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489703416"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|BasicInfoChange",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489703416"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--fe9ca944-12a1-4571-8f1c-f5dcff376a25",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--fe9ca944-12a1-4571-8f1c-f5dcff376a25",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--fe9ca944-12a1-4571-8f1c-f5dcff376a25",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489703496"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:13:16.154722Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|BasicInfoChange|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489703496"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--41772e6b-930c-49fc-ab49-d2b770642aae",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--41772e6b-930c-49fc-ab49-d2b770642aae",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History.lnk",
+          "observable:extension": ".lnk",
+          "observable:filePath": "History.lnk",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:00.677400Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--41772e6b-930c-49fc-ab49-d2b770642aae",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "317"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "107527"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489756712"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:00.677400Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489756712"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--ef4d16e6-4bd8-4464-a426-5a134a56f53b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--ef4d16e6-4bd8-4464-a426-5a134a56f53b",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History.lnk",
+          "observable:extension": ".lnk",
+          "observable:filePath": "History.lnk",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:00.677400Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--ef4d16e6-4bd8-4464-a426-5a134a56f53b",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "317"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "107527"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489756800"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:00.677400Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489756800"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--ed0d4725-31ed-4ae0-8578-c627b2dbb065",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--ed0d4725-31ed-4ae0-8578-c627b2dbb065",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:33.468673Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--ed0d4725-31ed-4ae0-8578-c627b2dbb065",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "274"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489807040"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:16:33.468673Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489807040"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--203d8fc8-1296-4ad3-bb1e-3d3f2d384437",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--203d8fc8-1296-4ad3-bb1e-3d3f2d384437",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.529293Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--203d8fc8-1296-4ad3-bb1e-3d3f2d384437",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "274"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489810256"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.529293Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489810256"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--0dfbac94-baf4-4fdd-8cc5-bee0897431a6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--0dfbac94-baf4-4fdd-8cc5-bee0897431a6",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.536554Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--0dfbac94-baf4-4fdd-8cc5-bee0897431a6",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489810352"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.536554Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|ObjectIdChange",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489810352"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--75ddd498-5211-4d19-bfe4-1c9fd0f1b66e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--75ddd498-5211-4d19-bfe4-1c9fd0f1b66e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History-journal",
+          "observable:extension": "",
+          "observable:filePath": "History-journal",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.542129Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--75ddd498-5211-4d19-bfe4-1c9fd0f1b66e",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "274"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489810432"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:17:54.542129Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489810432"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--91b88b30-b1e9-4408-86bf-5dd678ab56d4",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--91b88b30-b1e9-4408-86bf-5dd678ab56d4",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History",
+          "observable:extension": "",
+          "observable:filePath": "History",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:02.939153Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--91b88b30-b1e9-4408-86bf-5dd678ab56d4",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "260"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "50239"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489811344"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:02.939153Z"
+          },
+          "dfc-ext:updateReasons": "DataOverwrite|ObjectIdChange|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489811344"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d0d74ff7-5682-41dd-b5e6-7816b957fbe9",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d0d74ff7-5682-41dd-b5e6-7816b957fbe9",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History.lnk",
+          "observable:extension": ".lnk",
+          "observable:filePath": "History.lnk",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:35.468267Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d0d74ff7-5682-41dd-b5e6-7816b957fbe9",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "317"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "107527"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489838896"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:35.468267Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489838896"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--9c62d19a-3e3b-4fb3-90bf-bfb354ea2c44",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--9c62d19a-3e3b-4fb3-90bf-bfb354ea2c44",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "History.lnk",
+          "observable:extension": ".lnk",
+          "observable:filePath": "History.lnk",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:35.468267Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--9c62d19a-3e3b-4fb3-90bf-bfb354ea2c44",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "317"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "107527"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489838984"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:35.468267Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|FileCreate|Close",
+          "dfc-ext:fileAttributes": "Archive",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489838984"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--26a935a6-27ad-4735-b1fd-51f572fc1395",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--26a935a6-27ad-4735-b1fd-51f572fc1395",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlGlobalHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlGlobalHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.310459Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--26a935a6-27ad-4735-b1fd-51f572fc1395",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105842"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489908032"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.310459Z"
+          },
+          "dfc-ext:updateReasons": "DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489908032"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--ac907af4-c190-4038-a01e-326b77997cf6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--ac907af4-c190-4038-a01e-326b77997cf6",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlGlobalHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlGlobalHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.383820Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--ac907af4-c190-4038-a01e-326b77997cf6",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105842"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489908136"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.383820Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489908136"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--a69f526b-5422-4723-af1e-ca6a3ba68cf5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--a69f526b-5422-4723-af1e-ca6a3ba68cf5",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlGlobalHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlGlobalHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.383820Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--a69f526b-5422-4723-af1e-ca6a3ba68cf5",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105842"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489908240"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.383820Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489908240"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--6f731a9b-25d2-4ffa-bd73-2ad329d36f0d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--6f731a9b-25d2-4ffa-bd73-2ad329d36f0d",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFaultHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFaultHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.493432Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--6f731a9b-25d2-4ffa-bd73-2ad329d36f0d",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105843"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489908904"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.493432Z"
+          },
+          "dfc-ext:updateReasons": "DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489908904"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--9235671c-bff9-4216-bcc2-71e4b5c2bff5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--9235671c-bff9-4216-bcc2-71e4b5c2bff5",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFaultHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFaultHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.499212Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--9235671c-bff9-4216-bcc2-71e4b5c2bff5",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105843"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489909008"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.499212Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489909008"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--52adacdf-8ef6-43df-a272-4ebf81da0540",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--52adacdf-8ef6-43df-a272-4ebf81da0540",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFaultHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFaultHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.499212Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--52adacdf-8ef6-43df-a272-4ebf81da0540",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105843"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489909192"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.499212Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489909192"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--7434b677-6832-4f3e-8a3a-3e67abec3810",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--7434b677-6832-4f3e-8a3a-3e67abec3810",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFgAppHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFgAppHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--7434b677-6832-4f3e-8a3a-3e67abec3810",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105844"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489909384"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          },
+          "dfc-ext:updateReasons": "DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489909384"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--5a09a34d-47b8-47f5-ba22-e0db7c52c18a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--5a09a34d-47b8-47f5-ba22-e0db7c52c18a",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFgAppHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFgAppHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--5a09a34d-47b8-47f5-ba22-e0db7c52c18a",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105844"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489909488"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489909488"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    },
+    {
+      "@id": "kb:usn-entry--d587ca5c-e6d1-4710-8838-df0b24d22268",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:usn-entry-file-facet--d587ca5c-e6d1-4710-8838-df0b24d22268",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "AgGlFgAppHistory.db",
+          "observable:extension": ".db",
+          "observable:filePath": "AgGlFgAppHistory.db",
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          }
+        },
+        {
+          "@id": "kb:usn-entry-custom-facet--d587ca5c-e6d1-4710-8838-df0b24d22268",
+          "@type": [
+            "dfc-ext:UsnFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "105844"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "103698"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": "",
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489909592"
+          },
+          "dfc-ext:updateTimestamp": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:32.524397Z"
+          },
+          "dfc-ext:updateReasons": "DataExtend|DataTruncation|Close",
+          "dfc-ext:fileAttributes": "Archive|NotContentIndexed",
+          "dfc-ext:offsetToData": {
+            "@type": "xsd:integer",
+            "@value": "489909592"
+          },
+          "dfc-ext:sourceFile": "$J"
+        }
+      ]
+    }
+  ]
+}

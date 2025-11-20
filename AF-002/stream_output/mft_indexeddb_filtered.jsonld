@@ -1,0 +1,3092 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:mft-entry--726b9a18-2ef3-40af-b696-4faeb8631efb",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--726b9a18-2ef3-40af-b696-4faeb8631efb",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "https_www.reddit.com_0.indexeddb.leveldb",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDBhttps_www.reddit.com_0.indexeddb.leveldb",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1851"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--726b9a18-2ef3-40af-b696-4faeb8631efb",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "123294"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB",
+          "dfc-ext:fileName": "https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "None",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:44.495821Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489350128"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649295550"
+          },
+          "dfc-ext:securityId": "1851",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--c85b6613-f32a-4f78-bdd7-d4d6f86edd4c",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--c85b6613-f32a-4f78-bdd7-d4d6f86edd4c",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOG",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldbLOG",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "349"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--c85b6613-f32a-4f78-bdd7-d4d6f86edd4c",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "1157"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "LOG",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "349"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146340Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146340Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146340Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489472152"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647453519"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--23aac9f1-9cfe-4008-8793-b35492a418af",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--23aac9f1-9cfe-4008-8793-b35492a418af",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOCK",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldbLOCK",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--23aac9f1-9cfe-4008-8793-b35492a418af",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "1157"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "LOCK",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131309Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131309Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131309Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131309Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489472000"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647453250"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--66177432-3635-479a-9c42-9480a2191011",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--66177432-3635-479a-9c42-9480a2191011",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "MANIFEST-000001",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldbMANIFEST-000001",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--66177432-3635-479a-9c42-9480a2191011",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "1157"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "MANIFEST-000001",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131874Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.132583Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131874Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.132583Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131874Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.144809Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.131874Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489350760"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649283551"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--e501085b-573c-4a62-bc9b-86ec9f82fc2e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--e501085b-573c-4a62-bc9b-86ec9f82fc2e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "CURRENT",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldbCURRENT",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--e501085b-573c-4a62-bc9b-86ec9f82fc2e",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "1157"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "CURRENT",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.139447Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.140157Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.144809Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.140157Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.144809Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.140157Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489351528"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1646898439"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--2e99470e-703f-49b8-87f5-b2acd7e578fa",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--2e99470e-703f-49b8-87f5-b2acd7e578fa",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "000003.log",
+          "observable:extension": ".log",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb000003.log",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "2039"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--2e99470e-703f-49b8-87f5-b2acd7e578fa",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "1157"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.reddit.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "000003.log",
+          "dfc-ext:extension": ".log",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "2039"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.245176Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.245176Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.245176Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.146589Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489472072"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647453385"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--6ea1ab9b-fb6c-40bc-94ed-74b1da535c61",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--6ea1ab9b-fb6c-40bc-94ed-74b1da535c61",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "IndexedDB",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\DefaultIndexedDB",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1851"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--6ea1ab9b-fb6c-40bc-94ed-74b1da535c61",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "202745"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+          "dfc-ext:fileName": "IndexedDB",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "None",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.726820Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.726820Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.726820Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:41.128868Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.726820Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "476740584"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649372041"
+          },
+          "dfc-ext:securityId": "1851",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--61fb7722-efdc-45b8-a2f5-f598c15e314a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--61fb7722-efdc-45b8-a2f5-f598c15e314a",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "https_www.youtube.com_0.indexeddb.leveldb",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDBhttps_www.youtube.com_0.indexeddb.leveldb",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1851"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--61fb7722-efdc-45b8-a2f5-f598c15e314a",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "123294"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB",
+          "dfc-ext:fileName": "https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "None",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.315903Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "476740808"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649373634"
+          },
+          "dfc-ext:securityId": "1851",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--7400ded6-86fc-461f-a437-542681760af6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--7400ded6-86fc-461f-a437-542681760af6",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOG",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldbLOG",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "351"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--7400ded6-86fc-461f-a437-542681760af6",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "135741"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "LOG",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "351"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "487406608"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647507192"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--03be6535-8ad6-4fd6-bb9e-46eb01e99e2c",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--03be6535-8ad6-4fd6-bb9e-46eb01e99e2c",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOCK",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldbLOCK",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--03be6535-8ad6-4fd6-bb9e-46eb01e99e2c",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "135741"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "LOCK",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489488856"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647506974"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--dce04b78-a303-4ac1-a7fa-5fb74b340fa6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--dce04b78-a303-4ac1-a7fa-5fb74b340fa6",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "MANIFEST-000001",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldbMANIFEST-000001",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--dce04b78-a303-4ac1-a7fa-5fb74b340fa6",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "5"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "135741"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "MANIFEST-000001",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.728533Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "476741360"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649283981"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--58f3b9a1-495d-4534-a3e1-48b9e8578c25",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--58f3b9a1-495d-4534-a3e1-48b9e8578c25",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "IndexedDB",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2IndexedDB",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1851"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--58f3b9a1-495d-4534-a3e1-48b9e8578c25",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235484"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2",
+          "dfc-ext:fileName": "IndexedDB",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "None",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.885502Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.885502Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.885502Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:14:41.256027Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.885502Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "403666856"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649380086"
+          },
+          "dfc-ext:securityId": "1851",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--126dbbc0-5d47-470d-b196-c80f87361f50",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--126dbbc0-5d47-470d-b196-c80f87361f50",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "indexeddb.leveldb",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDBindexeddb.leveldb",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1851"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--126dbbc0-5d47-470d-b196-c80f87361f50",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235485"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB",
+          "dfc-ext:fileName": "indexeddb.leveldb",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "None",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:14:41.269473Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "403667728"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649380154"
+          },
+          "dfc-ext:securityId": "1851",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--b86f318b-5887-4d86-9b31-19c4bd7c3976",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--b86f318b-5887-4d86-9b31-19c4bd7c3976",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOG",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldbLOG",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "327"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--b86f318b-5887-4d86-9b31-19c4bd7c3976",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235490"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb",
+          "dfc-ext:fileName": "LOG",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "327"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "439110640"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1466719688"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--f51db032-a442-4543-9eca-b1fe5f8393ca",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--f51db032-a442-4543-9eca-b1fe5f8393ca",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LOCK",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldbLOCK",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--f51db032-a442-4543-9eca-b1fe5f8393ca",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235490"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb",
+          "dfc-ext:fileName": "LOCK",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "439110488"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1466719309"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--8964b044-11c9-4a1f-87d4-d5070174aeda",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--8964b044-11c9-4a1f-87d4-d5070174aeda",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "MANIFEST-000001",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldbMANIFEST-000001",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--8964b044-11c9-4a1f-87d4-d5070174aeda",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235490"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb",
+          "dfc-ext:fileName": "MANIFEST-000001",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "23"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "403671368"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1378614473"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--d6d2dc59-801f-46f3-8532-9f0f533e50c5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--d6d2dc59-801f-46f3-8532-9f0f533e50c5",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "CURRENT",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldbCURRENT",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--d6d2dc59-801f-46f3-8532-9f0f533e50c5",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235490"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb",
+          "dfc-ext:fileName": "CURRENT",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "403674416"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1378618409"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--7dd0e48b-765d-4608-b06f-376f557d4625",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--7dd0e48b-765d-4608-b06f-376f557d4625",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "000003.log",
+          "observable:extension": ".log",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb000003.log",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "19181"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--7dd0e48b-765d-4608-b06f-376f557d4625",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "235490"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\WebStorage\\2\\IndexedDB\\indexeddb.leveldb",
+          "dfc-ext:fileName": "000003.log",
+          "dfc-ext:extension": ".log",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "19181"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:24:35.523221Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:24:35.523221Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:24:35.523221Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:27.898723Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "439110560"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1476424383"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--f42b3880-ac1b-4a5b-9801-3b1521ee4fed",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--f42b3880-ac1b-4a5b-9801-3b1521ee4fed",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "IndexedDB.jfm",
+          "observable:extension": ".jfm",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Packages\\Microsoft.Windows.Search_cw5n1h2txyewy\\AppData\\Indexed DBIndexedDB.jfm",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "16384"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--f42b3880-ac1b-4a5b-9801-3b1521ee4fed",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "264077"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Packages\\Microsoft.Windows.Search_cw5n1h2txyewy\\AppData\\Indexed DB",
+          "dfc-ext:fileName": "IndexedDB.jfm",
+          "dfc-ext:extension": ".jfm",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "16384"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.769992Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:12.888804Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.769992Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:12.888804Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.769992Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:12.888804Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.769992Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489876112"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649138364"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--a1ac3b13-23c0-4ead-9ec0-7fd8402e1580",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--a1ac3b13-23c0-4ead-9ec0-7fd8402e1580",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "IndexedDB.edb",
+          "observable:extension": ".edb",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Packages\\Microsoft.Windows.Search_cw5n1h2txyewy\\AppData\\Indexed DBIndexedDB.edb",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "2097152"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--a1ac3b13-23c0-4ead-9ec0-7fd8402e1580",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "264077"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Packages\\Microsoft.Windows.Search_cw5n1h2txyewy\\AppData\\Indexed DB",
+          "dfc-ext:fileName": "IndexedDB.edb",
+          "dfc-ext:extension": ".edb",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "2097152"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive|SparseFile",
+          "dfc-ext:nameType": "Windows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.784807Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:12.900386Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.784807Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:18:12.900386Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.784807Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:21:28.149863Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T03:27:11.784807Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489827496"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1649381025"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--0024b63c-bfe8-4076-8f69-c325c0c2eb72",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--0024b63c-bfe8-4076-8f69-c325c0c2eb72",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "CURRENT",
+          "observable:extension": "",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldbCURRENT",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--0024b63c-bfe8-4076-8f69-c325c0c2eb72",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "135741"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "CURRENT",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "16"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.735343Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.736319Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.739817Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.736319Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.736319Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "476741888"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1601487676"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--7db0ea82-0169-4896-b755-047a4bb7a044",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--7db0ea82-0169-4896-b755-047a4bb7a044",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "000003.log",
+          "observable:extension": ".log",
+          "observable:filePath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb000003.log",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "244722"
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "observable:ntfsOwnerSID": "1850"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--7db0ea82-0169-4896-b755-047a4bb7a044",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "2"
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": "135741"
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "3"
+          },
+          "dfc-ext:parentPath": ".\\Users\\resea\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\IndexedDB\\https_www.youtube.com_0.indexeddb.leveldb",
+          "dfc-ext:fileName": "000003.log",
+          "dfc-ext:extension": ".log",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": "244722"
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": "1"
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": "Archive",
+          "dfc-ext:nameType": "DosWindows",
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.335860Z"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.335860Z"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:10:23.335860Z"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:43:50.740954Z"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "489488928"
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": "1647528729"
+          },
+          "dfc-ext:securityId": "1850",
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "C:\\Users\\QuelP\\Documents\\Research\\CASES\\AntiForensics Case\\Export\\$MFT"
+        }
+      ]
+    }
+  ]
+}

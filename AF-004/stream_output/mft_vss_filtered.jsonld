@@ -1,0 +1,450 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:mft-entry--60501edc-79a7-4823-b37f-5c5b1928899b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--60501edc-79a7-4823-b37f-5c5b1928899b",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "tracking.log",
+          "observable:extension": ".log",
+          "observable:filePath": ".\\System Volume Informationtracking.log",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 20480
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "observable:ntfsOwnerSID": "263"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--60501edc-79a7-4823-b37f-5c5b1928899b",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": 104179
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 103691
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:parentPath": ".\\System Volume Information",
+          "dfc-ext:fileName": "tracking.log",
+          "dfc-ext:extension": ".log",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": 20480
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": {
+            "@type": "xsd:integer",
+            "@value": 38
+          },
+          "dfc-ext:nameType": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:29.5311049+00:00"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:30.1252071+00:00"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:29.8747496+00:00"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:30.1252071+00:00"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:29.8747496+00:00"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:30.1252071+00:00"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:20:29.8747496+00:00"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4288592
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 235538741
+          },
+          "dfc-ext:securityId": 263,
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--7910e69e-1f1c-4034-be05-f9a99bea014e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--7910e69e-1f1c-4034-be05-f9a99bea014e",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "IndexerVolumeGuid",
+          "observable:extension": "",
+          "observable:filePath": ".\\System Volume InformationIndexerVolumeGuid",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 76
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "observable:ntfsOwnerSID": "917"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--7910e69e-1f1c-4034-be05-f9a99bea014e",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": 105784
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 8
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 103691
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:parentPath": ".\\System Volume Information",
+          "dfc-ext:fileName": "IndexerVolumeGuid",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": 76
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": {
+            "@type": "xsd:integer",
+            "@value": 32
+          },
+          "dfc-ext:nameType": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:22:45.7844109+00:00"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:22:45.7844109+00:00"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:22:45.7844109+00:00"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:11:49.2445672+00:00"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-06-27T02:22:45.7844109+00:00"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4517056
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 1062164900
+          },
+          "dfc-ext:securityId": 917,
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "$MFT"
+        }
+      ]
+    },
+    {
+      "@id": "kb:mft-entry--f3cc773f-75fd-4e81-950f-c108b5940070",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:mft-entry-file-facet--f3cc773f-75fd-4e81-950f-c108b5940070",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "{58b60e73-8711-4b85-ba84-e07afc57e1a5}_OnDiskSnapshotProp",
+          "observable:extension": "",
+          "observable:filePath": ".\\System Volume Information\\SPP\\OnlineMetadataCache{58b60e73-8711-4b85-ba84-e07afc57e1a5}_OnDiskSnapshotProp",
+          "observable:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 3472
+          },
+          "observable:ntfsHardLinkCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "observable:ntfsOwnerSID": "2878"
+        },
+        {
+          "@id": "kb:mft-entry-custom-facet--f3cc773f-75fd-4e81-950f-c108b5940070",
+          "@type": [
+            "dfc-ext:MftFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:entryNumber": {
+            "@type": "xsd:integer",
+            "@value": 125882
+          },
+          "dfc-ext:sequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 8
+          },
+          "dfc-ext:mftFlags": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:inUse": {
+            "@type": "xsd:boolean",
+            "@value": "true"
+          },
+          "dfc-ext:parentEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 125705
+          },
+          "dfc-ext:parentSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:parentPath": ".\\System Volume Information\\SPP\\OnlineMetadataCache",
+          "dfc-ext:fileName": "{58b60e73-8711-4b85-ba84-e07afc57e1a5}_OnDiskSnapshotProp",
+          "dfc-ext:extension": "",
+          "dfc-ext:fileSize": {
+            "@type": "xsd:integer",
+            "@value": 3472
+          },
+          "dfc-ext:referenceCount": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:reparseTarget": "",
+          "dfc-ext:isDirectory": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:hasAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:isAds": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siLessThanFn": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:uSecZeros": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:copied": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:siFlags": {
+            "@type": "xsd:integer",
+            "@value": 8230
+          },
+          "dfc-ext:nameType": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:created0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:31:38.1354333+00:00"
+          },
+          "dfc-ext:created0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastModified0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:31:38.1354333+00:00"
+          },
+          "dfc-ext:lastModified0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastRecordChange0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:31:38.1354333+00:00"
+          },
+          "dfc-ext:lastRecordChange0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "1970-01-01T00:00:00Z"
+          },
+          "dfc-ext:lastAccess0x10": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:31:42.0611377+00:00"
+          },
+          "dfc-ext:lastAccess0x30": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-14T22:31:38.1354333+00:00"
+          },
+          "dfc-ext:updateSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 471062704
+          },
+          "dfc-ext:logfileSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 1562204490
+          },
+          "dfc-ext:securityId": 2878,
+          "dfc-ext:objectIdFileDroid": "",
+          "dfc-ext:loggedUtilStream": "",
+          "dfc-ext:zoneIdContents": "",
+          "dfc-ext:sourceFile": "$MFT"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Large data files (>100MB, exceeds GitHub limit)
+# Large source data files (>100MB, exceeds GitHub limit)
 # These files need to be obtained separately or generated from source data
 **/mft_case2.jsonld
 **/usn_case2.jsonld
@@ -7,9 +7,7 @@
 **/usn_filled_case7.jsonld
 **/mft_filled_honest.jsonld
 
-# Stream output directories (temporary)
-stream_output/
-**/stream_output/
+# Note: Stream output filtered files are included (much smaller, <1MB)
 
 # Python cache
 __pycache__/

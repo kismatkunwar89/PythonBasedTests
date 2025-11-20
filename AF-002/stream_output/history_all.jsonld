@@ -1,0 +1,372 @@
+{
+  "@context": {
+    "@vocab": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "vocabulary": "https://ontology.unifiedcyberontology.org/uco/vocabulary/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:url--4745d90f-f0b4-41a7-aaa8-493a2529b246",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--4b40a301-fa81-4923-b257-a353194094d8",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://www.google.com/search?q=db+browser+for+sqlite&oq=db+brow&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyDQgBEAAYgwEYsQMYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCB7ACAfEFWlkpfo4jzVI&sourceid=chrome&ie=UTF-8&sei=aKhtaNHwKPiu5NoP3K356Ag"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--11ae69ef-d0a1-4ed4-bbec-4e5348eece3d",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--bfdcdd8e-bf7f-49eb-a153-7d454d686fe2",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--4745d90f-f0b4-41a7-aaa8-493a2529b246"
+          },
+          "observable:pageTitle": "db browser for sqlite - Google Search",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "0"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:24.139978409Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url--7a8b12f4-a988-4af5-afe3-9568baa17f5d",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--7bb0d8a3-8e52-42cd-8d78-564b11859eb0",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://sqlitebrowser.org/"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--d80eb135-f215-4002-adbe-ddf58a268f58",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--b7be3352-3b58-442a-9213-e966ac38a5a9",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--7a8b12f4-a988-4af5-afe3-9568baa17f5d"
+          },
+          "observable:pageTitle": "DB Browser for SQLite",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "0"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:29.921628952Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url--3e2e0efe-c9f9-4c5b-8217-2fef860e7c5b",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--dada430e-bac9-4698-99d1-e8c550f354eb",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://sqlitebrowser.org/dl/"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--15549910-1635-4f14-bb33-06063af16bec",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--013bec06-529e-48af-bc9d-9b879048811d",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--3e2e0efe-c9f9-4c5b-8217-2fef860e7c5b"
+          },
+          "observable:pageTitle": "Downloads - DB Browser for SQLite",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:49.637649536Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url--06460dc5-0fe6-4609-81b5-51051b33a0dd",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--26bd4a1e-e5c7-401e-a07d-21b5139f677a",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://www.nytimes.com/"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--eb307544-7deb-43bc-a106-00717f064037",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--14afbd26-aef3-4dbd-8003-d0b8889c1771",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--06460dc5-0fe6-4609-81b5-51051b33a0dd"
+          },
+          "observable:pageTitle": "The New York Times - Breaking News, US News, World News and Videos",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:54.925281525Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url--ab4b4f60-c4e0-4e60-84cb-18d8e58890d4",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--96b97ff8-a451-4252-9a2d-444299377e4c",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://www.google.com/search?q=reddit&oq=redd&gs_lcrp=EgZjaHJvbWUqEAgBEAAYgwEYsQMYyQMYgAQyBggAEEUYOTIQCAEQABiDARixAxjJAxiABDINCAIQABiSAxiABBiKBTIKCAMQABiSAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIGCAcQBRhA0gEIMzA2N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--eeee7b4f-c339-44de-a3dd-84e4c3ac2f74",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--c0585d10-71ce-48ac-b2d6-8825ac3d32de",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--ab4b4f60-c4e0-4e60-84cb-18d8e58890d4"
+          },
+          "observable:pageTitle": "reddit - Google Search",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "0"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:36.795377731Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url--9132ca0f-88be-47d0-bf34-913834b01340",
+      "@type": "observable:URL",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-facet--1945404c-6dad-4c80-8583-6989fb986872",
+          "@type": "observable:URLFacet",
+          "observable:fullValue": "https://www.reddit.com/"
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-history-entry--1c13662e-8f3a-4626-afd3-014e40765596",
+      "@type": "observable:URLHistoryEntry",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-history-facet--3492fade-6068-4915-b8dc-187efe4e1700",
+          "@type": "observable:URLHistoryFacet",
+          "observable:url": {
+            "@id": "kb:url--9132ca0f-88be-47d0-bf34-913834b01340"
+          },
+          "observable:pageTitle": "Reddit - The heart of the internet",
+          "observable:visitCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "1"
+          },
+          "observable:manuallyEnteredCount": {
+            "@type": "xsd:nonNegativeInteger",
+            "@value": "0"
+          },
+          "observable:lastVisit": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:38.862623215Z"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--6bc8f4f4-9a8e-4bbc-ad8c-940293813765",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--00700301-8e3b-4d40-b596-30d6aaefb662",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:24.139978409Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT5.783903S"
+          },
+          "observable:urlTransitionType": "generated",
+          "observable:url": {
+            "@id": "kb:url--4745d90f-f0b4-41a7-aaa8-493a2529b246"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--ec05e823-cc07-4c1a-8d15-51bca3801a64",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--8148d5bd-e435-4db1-a757-7f987224a2e3",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:29.921628952Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT19.718049S"
+          },
+          "observable:urlTransitionType": "link",
+          "observable:url": {
+            "@id": "kb:url--7a8b12f4-a988-4af5-afe3-9568baa17f5d"
+          },
+          "observable:fromURLVisit": {
+            "@id": "kb:url-visit--6bc8f4f4-9a8e-4bbc-ad8c-940293813765"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--368fb3c9-d837-4e3f-9e8c-1e703d8442ad",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--0bc893dd-6256-4f06-bb08-e4cad05373e2",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:23:49.637649536Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT529.61894S"
+          },
+          "observable:urlTransitionType": "typed",
+          "observable:url": {
+            "@id": "kb:url--3e2e0efe-c9f9-4c5b-8217-2fef860e7c5b"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--9661d18b-ac65-488d-9bfe-a043647c976f",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--c709a766-542c-43f2-9e84-2c4cfe6316a3",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-08T23:32:54.925281525Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT2248.551691S"
+          },
+          "observable:urlTransitionType": "typed",
+          "observable:url": {
+            "@id": "kb:url--06460dc5-0fe6-4609-81b5-51051b33a0dd"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--57106d7e-073c-4881-b9a1-2d489515e649",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--7435e44a-bf5c-44f9-b8fd-4e57331d9b23",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:36.795377731Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT2.06931S"
+          },
+          "observable:urlTransitionType": "generated",
+          "observable:url": {
+            "@id": "kb:url--ab4b4f60-c4e0-4e60-84cb-18d8e58890d4"
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:url-visit--19e4ff48-5f3d-4ad3-a118-dd02081c219d",
+      "@type": "observable:URLVisit",
+      "uco-core:hasFacet": [
+        {
+          "@id": "kb:url-visit-facet--0e0a5c85-1d19-449b-a9ce-0df30fba2413",
+          "@type": "observable:URLVisitFacet",
+          "observable:visitTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-07-09T00:09:38.862623215Z"
+          },
+          "observable:visitDuration": {
+            "@type": "xsd:duration",
+            "@value": "PT44.574233S"
+          },
+          "observable:urlTransitionType": "link",
+          "observable:url": {
+            "@id": "kb:url--9132ca0f-88be-47d0-bf34-913834b01340"
+          },
+          "observable:fromURLVisit": {
+            "@id": "kb:url-visit--57106d7e-073c-4881-b9a1-2d489515e649"
+          }
+        }
+      ]
+    }
+  ]
+}

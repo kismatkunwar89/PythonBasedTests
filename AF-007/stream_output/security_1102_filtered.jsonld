@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:evtx-entry--6b02a8f1-511e-46c2-be37-ddff9f52f248",
+      "@type": "observable:EventRecord",
+      "core:hasFacet": [
+        {
+          "@id": "kb:evtx-entry-standard-facet--6b02a8f1-511e-46c2-be37-ddff9f52f248",
+          "@type": [
+            "observable:EventRecordFacet",
+            "core:Facet"
+          ],
+          "observable:eventID": "1102",
+          "observable:eventRecordID": "5585",
+          "observable:eventRecordText": "Event log cleared",
+          "observable:eventRecordRaw": "{\"UserData\":{\"LogFileCleared\":{\"SubjectUserSid\":\"S-1-5-21-2679750263-731459410-1187419055-1001\",\"SubjectUserName\":\"resea\",\"SubjectDomainName\":\"DESKTOP-139UKNF\",\"SubjectLogonId\":\"0x3CF3F\",\"ClientProcessId\":\"2984\",\"ClientProcessStartKey\":\"562949953421648\"}}}",
+          "observable:eventRecordServiceName": "Microsoft-Windows-Eventlog",
+          "observable:eventType": "Info",
+          "observable:startTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-09-11T05:57:31.8483911+00:00"
+          },
+          "observable:eventRecordDevice": {
+            "@id": "kb:device--01d1aaec-0fa2-4181-9cb2-e52df08105df",
+            "@type": "observable:Device",
+            "core:name": "DESKTOP-139UKNF"
+          }
+        },
+        {
+          "@id": "kb:evtx-entry-custom-facet--6b02a8f1-511e-46c2-be37-ddff9f52f248",
+          "@type": [
+            "dfc-ext:EventLogFacet",
+            "core:Facet"
+          ],
+          "dfc-ext:channel": "Security",
+          "dfc-ext:keywords": "0x4020000000000000",
+          "dfc-ext:processId": {
+            "@type": "xsd:integer",
+            "@value": "1120"
+          },
+          "dfc-ext:threadId": {
+            "@type": "xsd:integer",
+            "@value": "4788"
+          },
+          "dfc-ext:chunkNumber": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:extraDataOffset": {
+            "@type": "xsd:integer",
+            "@value": "0"
+          },
+          "dfc-ext:hiddenRecord": {
+            "@type": "xsd:boolean",
+            "@value": "false"
+          },
+          "dfc-ext:sourceFile": "C:\\Users\\Kismat\\Documents\\Research-main-fall2025\\raquel\\AF-007\\Security.evtx",
+          "dfc-ext:payloadData1": "SID: (S-1-5-21-2679750263-731459410-1187419055-1001)",
+          "dfc-ext:payloadData2": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5004 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "kb": "http://example.org/kb/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:lnk-source-file--3f299f3a-1f8e-431d-b2ac-43729849c739",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-source-facet--3f299f3a-1f8e-431d-b2ac-43729849c739",
+          "@type": "observable:FileFacet",
+          "observable:fileName": "LECmd_Output.csv",
+          "observable:filePath": "C:\\LECmd_Output.csv",
+          "observable:extension": ".csv",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 100000
+          }
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--67128df2-5425-402d-937f-d1058e7746a2",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--67128df2-5425-402d-937f-d1058e7746a2",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\!SBECmd_Messages.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\!SBECmd_Messages.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 1981
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:20Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:58Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:20Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--67128df2-5425-402d-937f-d1058e7746a2",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before\\!SBECmd_Messages.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before\\!SBECmd_Messages.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:42Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:47Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:20Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before\\!SBECmd_Messages.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 54
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 9
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--824bdf62-5b67-4cdc-bd28-9e07892520ec",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--824bdf62-5b67-4cdc-bd28-9e07892520ec",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250125191219_MFTECmd_$J_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250125191219_MFTECmd_$J_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 48343883
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:21Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:13:25Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:13:25Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--824bdf62-5b67-4cdc-bd28-9e07892520ec",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191219_MFTECmd_$J_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191219_MFTECmd_$J_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:12:19Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:12:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:12:29Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191219_MFTECmd_$J_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2601
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--2d0c785a-ede5-4c32-8672-f59b7c2dd6af",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--2d0c785a-ede5-4c32-8672-f59b7c2dd6af",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250125191239_MFTECmd_$MFT_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250125191239_MFTECmd_$MFT_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 135969234
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:21Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:21:39Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:42:15Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--2d0c785a-ede5-4c32-8672-f59b7c2dd6af",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191239_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191239_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:12:39Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:12:43Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:38:52Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\20250125191239_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2606
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--c27ab661-0a66-4339-b7b9-0457add8e011",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--c27ab661-0a66-4339-b7b9-0457add8e011",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250126203826_MFTECmd_$I30_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250126203826_MFTECmd_$I30_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 6574
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:21Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:38:34Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-28T17:00:02Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--c27ab661-0a66-4339-b7b9-0457add8e011",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\20250126203826_MFTECmd_$I30_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\20250126203826_MFTECmd_$I30_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:38:26Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:38:26Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-28T17:00:02Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Confidential\\20250126203826_MFTECmd_$I30_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 214216
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 12
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--b15ffd06-b797-40ac-9a87-62a30e8531a6",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--b15ffd06-b797-40ac-9a87-62a30e8531a6",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250130_194746_DFIR_LIVE_REGISTRY.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250130_194746_DFIR_LIVE_REGISTRY.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 25607
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:21Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:48:17Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:48:17Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--b15ffd06-b797-40ac-9a87-62a30e8531a6",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250130_194746_DFIR_LIVE_REGISTRY.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250130_194746_DFIR_LIVE_REGISTRY.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:46Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:46Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:47:48Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before\\20250130_194746_DFIR_LIVE_REGISTRY.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2762
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--7ff86006-5490-4cc0-b159-c33b7956f4ae",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--7ff86006-5490-4cc0-b159-c33b7956f4ae",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250131000053_LECmd_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250131000053_LECmd_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 36879
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:22Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:02:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:02:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--7ff86006-5490-4cc0-b159-c33b7956f4ae",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250131000053_LECmd_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250131000053_LECmd_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:00:55Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:00:56Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:00:56Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before\\20250131000053_LECmd_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 28063
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--dbac7f68-d2f3-40cb-a0dd-2572d5fb355a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--dbac7f68-d2f3-40cb-a0dd-2572d5fb355a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250131002546_AutomaticDestinations.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250131002546_AutomaticDestinations.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 86897
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:22Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:26:26Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:26:26Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--dbac7f68-d2f3-40cb-a0dd-2572d5fb355a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250131002546_AutomaticDestinations.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before\\20250131002546_AutomaticDestinations.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:25:46Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:25:47Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:25:47Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before\\20250131002546_AutomaticDestinations.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 257724
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--be3d99bb-afd9-4ec4-8a3b-a235502521e5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--be3d99bb-afd9-4ec4-8a3b-a235502521e5",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304011438_MFTECmd_$MFT_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304011438_MFTECmd_$MFT_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 161377093
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:22Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:53Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:53Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--be3d99bb-afd9-4ec4-8a3b-a235502521e5",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304011438_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304011438_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:39Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:47Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:47Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\SysinternalsSuite\\20250304011438_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 117072
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--a493a7e7-5db1-4f65-aa63-52ce2e9b7cb1",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--a493a7e7-5db1-4f65-aa63-52ce2e9b7cb1",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304012709_MFTECmd_$MFT_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304012709_MFTECmd_$MFT_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 138890829
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:22Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:30:27Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:30:27Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--a493a7e7-5db1-4f65-aa63-52ce2e9b7cb1",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304012709_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304012709_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:27:09Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:27:17Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:29:16Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\SysinternalsSuite\\20250304012709_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 10173
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 201
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--ef4a8b0e-8d04-4862-8b5a-8f8d4bfa822a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--ef4a8b0e-8d04-4862-8b5a-8f8d4bfa822a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304014006_MFTECmd_$MFT_Output.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\20250304014006_MFTECmd_$MFT_Output.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 154722765
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:44:34Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:44:34Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--ef4a8b0e-8d04-4862-8b5a-8f8d4bfa822a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304014006_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\20250304014006_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:40:06Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:40:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:43:54Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\SysinternalsSuite\\20250304014006_MFTECmd_$MFT_Output.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 12928
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--f70fe817-7f85-41a3-82f9-acf90c9e0f72",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--f70fe817-7f85-41a3-82f9-acf90c9e0f72",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\5a2098e080cf7ac4.automaticDestinations-ms.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\5a2098e080cf7ac4.automaticDestinations-ms.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 683008
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:32:43Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:32:43Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--f70fe817-7f85-41a3-82f9-acf90c9e0f72",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\5a2098e080cf7ac4.automaticDestinations-ms",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\5a2098e080cf7ac4.automaticDestinations-ms",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-23T20:28:45Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:51:00Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:25:46Z"
+          },
+          "dfc-ext:relativePath": ".\\AutomaticDestinations\\5a2098e080cf7ac4.automaticDestinations-ms",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 170214
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 8
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--9741f103-04b1-4cdc-8b2e-466b78a6d48e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--9741f103-04b1-4cdc-8b2e-466b78a6d48e",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\5b60ff9d777810f7.automaticDestinations-ms.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\5b60ff9d777810f7.automaticDestinations-ms.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 133120
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:33:40Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:33:40Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--9741f103-04b1-4cdc-8b2e-466b78a6d48e",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\5b60ff9d777810f7.automaticDestinations-ms",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\5b60ff9d777810f7.automaticDestinations-ms",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:31:12Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:03:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:33:40Z"
+          },
+          "dfc-ext:relativePath": ".\\AutomaticDestinations\\5b60ff9d777810f7.automaticDestinations-ms",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 248359
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--19b9e798-29a8-4d3f-abaa-46859324cd3c",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--19b9e798-29a8-4d3f-abaa-46859324cd3c",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\a61657a5e5dfbdc.automaticDestinations-ms.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\a61657a5e5dfbdc.automaticDestinations-ms.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 20480
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:28:00Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:28:00Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--19b9e798-29a8-4d3f-abaa-46859324cd3c",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\a61657a5e5dfbdc.automaticDestinations-ms",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations\\a61657a5e5dfbdc.automaticDestinations-ms",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:24Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:13:50Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:14:07Z"
+          },
+          "dfc-ext:relativePath": ".\\AutomaticDestinations\\a61657a5e5dfbdc.automaticDestinations-ms",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\AutomaticDestinations",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2565
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--9bf4bf53-46a8-4efa-8e42-7c8eb09074ce",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--9bf4bf53-46a8-4efa-8e42-7c8eb09074ce",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\After.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\After.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:14Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:14Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--9bf4bf53-46a8-4efa-8e42-7c8eb09074ce",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results\\After",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results\\After",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:11Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:11Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:12Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Results\\After",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 238238
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--38f1cb93-22b9-49d2-87eb-b1948115058a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--38f1cb93-22b9-49d2-87eb-b1948115058a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Arsenal-Image-Mounter-v3.11.293.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Arsenal-Image-Mounter-v3.11.293.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 54763302
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:25:24Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:26:13Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--38f1cb93-22b9-49d2-87eb-b1948115058a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Arsenal-Image-Mounter-v3.11.293.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Arsenal-Image-Mounter-v3.11.293.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:25:05Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:25:08Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:26:13Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Arsenal-Image-Mounter-v3.11.293.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 197384
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 5
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--d379aba7-f65d-43cb-9641-71d3cba8fd35",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--d379aba7-f65d-43cb-9641-71d3cba8fd35",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\artifactscheckcc.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\artifactscheckcc.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:50Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:50Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--d379aba7-f65d-43cb-9641-71d3cba8fd35",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\artifactscheckcc.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\artifactscheckcc.txt",
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\artifactscheckcc.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--fe3b4477-8fe1-4be0-9776-4b350ac187c3",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--fe3b4477-8fe1-4be0-9776-4b350ac187c3",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\autorun.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\autorun.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 55802
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--fe3b4477-8fe1-4be0-9776-4b350ac187c3",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "D:\\autorun.ico",
+          "dfc-ext:targetFileName": "D:\\autorun.ico",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-05-02T10:35:42Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-05-02T10:35:42Z"
+          },
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "D:\\",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 208
+          },
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--4b93883a-c140-48bd-bb9b-c9fcc6e124ff",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--4b93883a-c140-48bd-bb9b-c9fcc6e124ff",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\before (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\before (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 161377093
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:19:30Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:19:30Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--4b93883a-c140-48bd-bb9b-c9fcc6e124ff",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\before.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite\\before.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:39Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:47Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:15:47Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\SysinternalsSuite\\before.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 117072
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--3b37c547-4dc6-4af3-bd35-7a96a950f4f5",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--3b37c547-4dc6-4af3-bd35-7a96a950f4f5",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Before.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Before.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:23Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:08Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:21Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--3b37c547-4dc6-4af3-bd35-7a96a950f4f5",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:03:34Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:50:40Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:21Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 245982
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--48ed58de-b451-4e92-b8d9-9a99d8ce2a2a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--48ed58de-b451-4e92-b8d9-9a99d8ce2a2a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_files.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_files.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 33568
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:31:59Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:50:42Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--48ed58de-b451-4e92-b8d9-9a99d8ce2a2a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_files.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_files.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:15:31Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:15:32Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:50:42Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\ccleaner_files.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 30034
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--04ebc074-d3b4-4f49-bd15-c9fc0e7aefd3",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--04ebc074-d3b4-4f49-bd15-c9fc0e7aefd3",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_registry_hkcu.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_registry_hkcu.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 30274
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:32:24Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:58Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--04ebc074-d3b4-4f49-bd15-c9fc0e7aefd3",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_registry_hkcu.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_registry_hkcu.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:50:27Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:14:35Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:58Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\ccleaner_registry_hkcu.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2963
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--dca6e1bc-41bc-4457-9c49-166b5bdd850f",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--dca6e1bc-41bc-4457-9c49-166b5bdd850f",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_shadow_copies.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ccleaner_shadow_copies.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 320
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:15:50Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:23:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--dca6e1bc-41bc-4457-9c49-166b5bdd850f",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_shadow_copies.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\ccleaner_shadow_copies.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:15:42Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:15:42Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:23:46Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\ccleaner_shadow_copies.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 30487
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--56366180-fe06-4d2b-b8c9-eda864d365aa",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--56366180-fe06-4d2b-b8c9-eda864d365aa",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CD Drive.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\CD Drive.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--56366180-fe06-4d2b-b8c9-eda864d365aa",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "D:\\",
+          "dfc-ext:targetFileName": "D:\\",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-05-02T10:35:42Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-05-02T10:35:42Z"
+          },
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--3ea3b966-9242-46b0-9ef1-7e11132fb1d9",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--3ea3b966-9242-46b0-9ef1-7e11132fb1d9",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Change date, time, or number formats.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Change date, time, or number formats.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:48:22Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:48:22Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--3ea3b966-9242-46b0-9ef1-7e11132fb1d9",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--b7035c6e-224b-49ad-8458-a9b586de1661",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--b7035c6e-224b-49ad-8458-a9b586de1661",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Change the time zone.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Change the time zone.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:49:03Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:49:03Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--b7035c6e-224b-49ad-8458-a9b586de1661",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--d813fd05-52c1-4928-8e7e-6406b9709515",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--d813fd05-52c1-4928-8e7e-6406b9709515",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\confidential (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\confidential (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 13309
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:24Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:38Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:13:05Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--d813fd05-52c1-4928-8e7e-6406b9709515",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\confidential.docx",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\confidential.docx",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:37Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:38Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:21:28Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\confidential.docx",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 246430
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--ad85e3e8-decd-4cad-939d-45b849953fe4",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--ad85e3e8-decd-4cad-939d-45b849953fe4",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidential (3).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidential (3).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:42:18Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T02:03:38Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--ad85e3e8-decd-4cad-939d-45b849953fe4",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:06:15Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:43Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T02:03:38Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 238269
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 11
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--338e8a9b-6dc7-4815-8b81-14c274719eaf",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--338e8a9b-6dc7-4815-8b81-14c274719eaf",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidential.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidential.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:12:12Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:38Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--338e8a9b-6dc7-4815-8b81-14c274719eaf",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:06:15Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:37Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:07:38Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 238269
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 11
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--aa972e5e-a926-42a5-874c-82ccc15a2b62",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--aa972e5e-a926-42a5-874c-82ccc15a2b62",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidentu.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Confidentu.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:06:02Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:06:02Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--aa972e5e-a926-42a5-874c-82ccc15a2b62",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidentu",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidentu",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:05:56Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:05:56Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:06:02Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidentu",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 228500
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 10
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--95e67a36-c9df-432d-992d-4de72c7a6f35",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--95e67a36-c9df-432d-992d-4de72c7a6f35",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\dfir_ntfs-1.1.19.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\dfir_ntfs-1.1.19.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 11417293
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:03:28Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:24:33Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--95e67a36-c9df-432d-992d-4de72c7a6f35",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\dfir_ntfs-1.1.19.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\dfir_ntfs-1.1.19.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:03:22Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:03:26Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:24:33Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\dfir_ntfs-1.1.19.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 29988
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 11
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--a5cf21f9-2962-4ed5-b512-5d3e98847524",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--a5cf21f9-2962-4ed5-b512-5d3e98847524",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\docx_registry_check.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\docx_registry_check.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 5652
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:47:12Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:47:12Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--a5cf21f9-2962-4ed5-b512-5d3e98847524",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results\\Before\\docx_registry_check.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results\\Before\\docx_registry_check.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:46:59Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:46:59Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:47:00Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Results\\Before\\docx_registry_check.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results\\Before",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 25055
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 7
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--c2f93d67-a05d-4a7c-affb-310fdbcf4450",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--c2f93d67-a05d-4a7c-affb-310fdbcf4450",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Downloads.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Downloads.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:13Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--c2f93d67-a05d-4a7c-affb-310fdbcf4450",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-23T20:23:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:fe:23:2f"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--dee2a7af-0e32-43ea-85c5-0fb6b80aea8e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--dee2a7af-0e32-43ea-85c5-0fb6b80aea8e",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Forensics ools.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Forensics ools.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--dee2a7af-0e32-43ea-85c5-0fb6b80aea8e",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Forensics ools",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Forensics ools",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:45Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:45Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:52Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Forensics ools",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 197438
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--698ff663-72b6-483b-9724-70747897851a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--698ff663-72b6-483b-9724-70747897851a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-28T19:50:21Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:24:19Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--698ff663-72b6-483b-9724-70747897851a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:45Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:23:28Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:24:18Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 197438
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--b7882e19-18a8-4389-9346-fa6ffb8d6e1d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--b7882e19-18a8-4389-9346-fa6ffb8d6e1d",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools (3).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools (3).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:49Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:44:52Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--b7882e19-18a8-4389-9346-fa6ffb8d6e1d",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:45Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:31:01Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:44:49Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 197438
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--c25f6d6d-7907-4f30-9917-9556f0a07735",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--c25f6d6d-7907-4f30-9917-9556f0a07735",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Fortools.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:19:58Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:03:44Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--c25f6d6d-7907-4f30-9917-9556f0a07735",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:45Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:22:14Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:03:41Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 197438
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--7da8f41a-1f5d-4121-a72f-c34ee09c87c7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--7da8f41a-1f5d-4121-a72f-c34ee09c87c7",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\http--www.ccleaner.com-go-app_releasenotesp=1&v=&l=1033&b=1&a=0.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\http--www.ccleaner.com-go-app_releasenotesp=1&v=&l=1033&b=1&a=0.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:05:53Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:05:53Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--7da8f41a-1f5d-4121-a72f-c34ee09c87c7",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--3eaade64-f33a-4e4e-a673-b8a5bbfd90ad",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--3eaade64-f33a-4e4e-a673-b8a5bbfd90ad",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\imp.txt.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\imp.txt.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 55
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:13:43Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:54:03Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--3eaade64-f33a-4e4e-a673-b8a5bbfd90ad",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\imp.txt.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\imp.txt.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:13:36Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:14:17Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:36:30Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Confidential\\imp.txt.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 1353
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--a68dfee6-e184-4301-8530-c0d5a535e89f",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--a68dfee6-e184-4301-8530-c0d5a535e89f",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\important.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\important.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:27:16Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:27:16Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--a68dfee6-e184-4301-8530-c0d5a535e89f",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\important.docx",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential\\important.docx",
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Confidential\\important.docx",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--550b903d-ebd4-4f08-a04b-fb0f68b13c2b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--550b903d-ebd4-4f08-a04b-fb0f68b13c2b",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\INDXParse-master.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\INDXParse-master.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 287985
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:25Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:24:08Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:24:40Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--550b903d-ebd4-4f08-a04b-fb0f68b13c2b",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\INDXParse-master.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\INDXParse-master.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:24:05Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:24:07Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:24:10Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\INDXParse-master.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--01843cf2-0383-4a81-b7d7-b2c0aa24efa2",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--01843cf2-0383-4a81-b7d7-b2c0aa24efa2",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\JumpListExplorer.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\JumpListExplorer.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 89169134
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:30:50Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:30:50Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--01843cf2-0383-4a81-b7d7-b2c0aa24efa2",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\JumpListExplorer.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\JumpListExplorer.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:10:56Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:11:27Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:30:49Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\JumpListExplorer.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 28062
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 8
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--0db95e85-62a4-4f89-be7c-291f8fd34fcd",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--0db95e85-62a4-4f89-be7c-291f8fd34fcd",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ktams.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ktams.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 8192
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:39:06Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:41:56Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--0db95e85-62a4-4f89-be7c-291f8fd34fcd",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-23T20:23:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T16:56:45Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:41:56Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 84324
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--7971afa9-5c88-4cdb-9282-987f5fe9c38a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--7971afa9-5c88-4cdb-9282-987f5fe9c38a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LECmd (1).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LECmd (1).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 2604805
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:15Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:15Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--7971afa9-5c88-4cdb-9282-987f5fe9c38a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\LECmd (1).zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\LECmd (1).zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:10Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:13Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-30T23:58:15Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\LECmd (1).zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--523468fa-df7a-4b83-8162-a782317450e4",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--523468fa-df7a-4b83-8162-a782317450e4",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LECmd.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LECmd.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 2938780
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:09:16Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:09:16Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--523468fa-df7a-4b83-8162-a782317450e4",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\LECmd.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\LECmd.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:09:02Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-10-06T20:30:31Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:09:04Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\LECmd.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 19447
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 5
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--f3bb2967-0718-4cf5-8b2a-f8c75bbac223",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--f3bb2967-0718-4cf5-8b2a-f8c75bbac223",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 117883538
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:52:28Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:52:28Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--f3bb2967-0718-4cf5-8b2a-f8c75bbac223",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:33:07Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:42:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:43:03Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 215225
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 10
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--41be6c4e-f9b1-4af5-a914-34784bb2bee4",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--41be6c4e-f9b1-4af5-a914-34784bb2bee4",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFileParser_v2.0.0.51.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFileParser_v2.0.0.51.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 6530921
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:26Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:26Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--41be6c4e-f9b1-4af5-a914-34784bb2bee4",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\LogFileParser_v2.0.0.51.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\LogFileParser_v2.0.0.51.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:22Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:25Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:18:26Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\LogFileParser_v2.0.0.51.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--5d8cee60-bee3-4807-a3bf-043cd9fc0549",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--5d8cee60-bee3-4807-a3bf-043cd9fc0549",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_2025-01-26_13-33-40.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_2025-01-26_13-33-40.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 8192
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:54Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:54Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--5d8cee60-bee3-4807-a3bf-043cd9fc0549",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:40Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:54Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 199362
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--53c5a94d-1f80-44a5-9ca9-e04f97691e5d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--53c5a94d-1f80-44a5-9ca9-e04f97691e5d",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_2025-01-26_14-33-07.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_2025-01-26_14-33-07.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 8192
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:52:28Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:53:17Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--53c5a94d-1f80-44a5-9ca9-e04f97691e5d",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:33:07Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:42:28Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:53:17Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 215150
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--e02176e2-b5f7-432c-b484-14906c755bd7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--e02176e2-b5f7-432c-b484-14906c755bd7",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_INDX_I30.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_INDX_I30.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 297
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:54Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:51:54Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--e02176e2-b5f7-432c-b484-14906c755bd7",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40\\LogFile_INDX_I30.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40\\LogFile_INDX_I30.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:42Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:42Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40\\LogFile_INDX_I30.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_13-33-40",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 199367
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 5
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--e462a23c-e235-4006-8b85-b281f6c805f0",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--e462a23c-e235-4006-8b85-b281f6c805f0",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_lfUsnJrnl.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\LogFile_lfUsnJrnl.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 2512943
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:53:17Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:53:17Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--e462a23c-e235-4006-8b85-b281f6c805f0",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile_lfUsnJrnl.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile_lfUsnJrnl.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:33:07Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:42:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:42:22Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07\\LogFile_lfUsnJrnl.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser\\LogFile_2025-01-26_14-33-07",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 215731
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--8c00ac67-4511-4ae8-a954-07aa27c34f4e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--8c00ac67-4511-4ae8-a954-07aa27c34f4e",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Logparser.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Logparser.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:21:09Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:25:38Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--8c00ac67-4511-4ae8-a954-07aa27c34f4e",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\Fortools\\Logparser",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:21:05Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:33:40Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:24:00Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\Fortools\\Logparser",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 198945
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--e0dd6a64-62c4-43b4-9206-c75d99fe58f3",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--e0dd6a64-62c4-43b4-9206-c75d99fe58f3",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\MFTECmd.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\MFTECmd.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4467833
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:56:40Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:56:40Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--e0dd6a64-62c4-43b4-9206-c75d99fe58f3",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\MFTECmd.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\MFTECmd.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:54:01Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:54:14Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:56:39Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\MFTECmd.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--fc5b5cd6-7ee5-47af-b2c2-4deb133a08de",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--fc5b5cd6-7ee5-47af-b2c2-4deb133a08de",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\mftetoolMFTsorted.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\mftetoolMFTsorted.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 58390
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:45:00Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:46:44Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--fc5b5cd6-7ee5-47af-b2c2-4deb133a08de",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolMFTsorted.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolMFTsorted.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:44:06Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:46:42Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:46:44Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolMFTsorted.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2916
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--6d4a6a02-5879-4bab-9831-37b1d462a21b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--6d4a6a02-5879-4bab-9831-37b1d462a21b",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\mftetoolUSNjrnlsorted.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\mftetoolUSNjrnlsorted.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 880
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:21:25Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:21:25Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--6d4a6a02-5879-4bab-9831-37b1d462a21b",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolUSNjrnlsorted.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolUSNjrnlsorted.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:18:20Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:21:19Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:21:20Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\mftetoolUSNjrnlsorted.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2728
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--d72dda18-833c-49ba-a706-0af64554b448",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--d72dda18-833c-49ba-a706-0af64554b448",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay---.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay---.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-28T19:06:15Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T15:28:37Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--d72dda18-833c-49ba-a706-0af64554b448",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--1783d148-d1ce-41a3-a37c-b586ace3c54d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--1783d148-d1ce-41a3-a37c-b586ace3c54d",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay--kglcheck- (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay--kglcheck- (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-28T19:06:15Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T15:28:36Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--1783d148-d1ce-41a3-a37c-b586ace3c54d",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--2812583f-24ed-4bd3-8c76-5c26377e714a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--2812583f-24ed-4bd3-8c76-5c26377e714a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay--kglcheck-.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-gamingoverlay--kglcheck-.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:41:33Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:41:33Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--2812583f-24ed-4bd3-8c76-5c26377e714a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--a5cba8a2-d93c-49e4-b3dc-b4cb5ff3bd3f",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--a5cba8a2-d93c-49e4-b3dc-b4cb5ff3bd3f",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-photosspareprocess-viewer.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ms-photosspareprocess-viewer.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:50Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T17:00:50Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--a5cba8a2-d93c-49e4-b3dc-b4cb5ff3bd3f",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "",
+          "dfc-ext:targetFileName": "",
+          "dfc-ext:relativePath": "",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--2a941fce-b9e8-4297-805f-7d25da82769a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--2a941fce-b9e8-4297-805f-7d25da82769a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New folder.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New folder.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:13Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:13Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--2a941fce-b9e8-4297-805f-7d25da82769a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\New folder",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\New folder",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:07Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:07Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:07Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\New folder",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2559
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--c11de63e-c250-430c-9bdc-f3d3ffd25b51",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--c11de63e-c250-430c-9bdc-f3d3ffd25b51",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New Text Document (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New Text Document (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:49:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:49:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--c11de63e-c250-430c-9bdc-f3d3ffd25b51",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\New Text Document (2).txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\New Text Document (2).txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:49:44Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:49:44Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:49:44Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\New Text Document (2).txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2955
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--56ccb55e-4dae-4ccb-885f-41312342c138",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--56ccb55e-4dae-4ccb-885f-41312342c138",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New Text Document.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\New Text Document.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:26Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:10:24Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:30Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--56ccb55e-4dae-4ccb-885f-41312342c138",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\New Text Document.txt",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\New Text Document.txt",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:28Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:28Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:48:28Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\New Text Document.txt",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2943
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--f788dae0-de56-4640-9d79-0c5dbb804705",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--f788dae0-de56-4640-9d79-0c5dbb804705",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\NTFS.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\NTFS.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:13:25Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:57:41Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--f788dae0-de56-4640-9d79-0c5dbb804705",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:11:02Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:54:29Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:57:41Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 2578
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--47777d67-cf3f-4865-9d5a-ba13f40b1455",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--47777d67-cf3f-4865-9d5a-ba13f40b1455",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\NTUSER.DAT.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\NTUSER.DAT.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4980736
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:39:06Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:46:13Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--47777d67-cf3f-4865-9d5a-ba13f40b1455",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\NTUSER.DAT",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\NTUSER.DAT",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-23T20:23:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T16:24:29Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:46:13Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\NTUSER.DAT",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 252404
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 1
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--dc07cad1-39a6-4ccb-8de6-0d3435059705",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--dc07cad1-39a6-4ccb-8de6-0d3435059705",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\password (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\password (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 10679
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:45Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:45Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--dc07cad1-39a6-4ccb-8de6-0d3435059705",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\password.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\password.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:43Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:43Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:57:44Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\password.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 17096
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--eef264b1-54e1-4e6c-8577-4e456247ed87",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--eef264b1-54e1-4e6c-8577-4e456247ed87",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\password.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\password.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 13231
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:37Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T02:03:38Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--eef264b1-54e1-4e6c-8577-4e456247ed87",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\password.docx",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\password.docx",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T10:15:43Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-06T12:27:09Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T02:03:37Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\password.docx",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 116327
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--ea30943b-54c8-4f8d-a2d5-c7b53fa03ef8",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--ea30943b-54c8-4f8d-a2d5-c7b53fa03ef8",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\PreAlterationRegistrySnapshot.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\PreAlterationRegistrySnapshot.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 3940
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T01:01:37Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T01:01:37Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--ea30943b-54c8-4f8d-a2d5-c7b53fa03ef8",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\PreAlterationRegistrySnapshot.csv",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\PreAlterationRegistrySnapshot.csv",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:56:50Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T01:00:41Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T01:00:42Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\PreAlterationRegistrySnapshot.csv",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 171154
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 7
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--762e9f4f-46b6-470b-b8ee-d2cf0cca69ed",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--762e9f4f-46b6-470b-b8ee-d2cf0cca69ed",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Registry NTFS.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Registry NTFS.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:54:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:54:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--762e9f4f-46b6-470b-b8ee-d2cf0cca69ed",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Results\\Before\\Registry NTFS",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Results\\Before\\Registry NTFS",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:54:40Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:54:40Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:54:46Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Results\\Before\\Registry NTFS",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 171296
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 8
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--1efa3dbd-e214-4257-bb09-9649d2b256d7",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--1efa3dbd-e214-4257-bb09-9649d2b256d7",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Registry-check.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Registry-check.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:42:06Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:23:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--1efa3dbd-e214-4257-bb09-9649d2b256d7",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:41:41Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T19:29:21Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T20:23:46Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 176017
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 3
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--0587d02d-1c3e-47cd-903f-202850ab645d",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--0587d02d-1c3e-47cd-903f-202850ab645d",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\RegistryExplorer.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\RegistryExplorer.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 95502412
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:30Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:30Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--0587d02d-1c3e-47cd-903f-202850ab645d",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\RegistryExplorer.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\RegistryExplorer.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:18:46Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:19:06Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:30Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\RegistryExplorer.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 246678
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 6
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--f1705cd1-ed7f-4a8f-906e-1fad25c3462e",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--f1705cd1-ed7f-4a8f-906e-1fad25c3462e",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\RegKeySnapshot.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\RegKeySnapshot.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:46Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-31T00:55:46Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--f1705cd1-ed7f-4a8f-906e-1fad25c3462e",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\Confidential\\RegKeySnapshot.ps1",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\Confidential\\RegKeySnapshot.ps1",
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\Confidential\\RegKeySnapshot.ps1",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\Desktop\\Confidential",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "",
+          "dfc-ext:machineMacAddress": ""
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--a36e7b77-f1ae-4d4f-a686-7973cbb81391",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--a36e7b77-f1ae-4d4f-a686-7973cbb81391",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Results.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\Results.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 4096
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:28:01Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:14Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--a36e7b77-f1ae-4d4f-a686-7973cbb81391",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Results",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:27:47Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:14Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:31:14Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Results",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 170730
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 9
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--b783cdcb-5b77-4aef-9232-fb0010df1550",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--b783cdcb-5b77-4aef-9232-fb0010df1550",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ShellBagsExplorer.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\ShellBagsExplorer.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 90299676
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:47:38Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:47:53Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--b783cdcb-5b77-4aef-9232-fb0010df1550",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\ShellBagsExplorer.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\ShellBagsExplorer.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:30:27Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:30:32Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T17:47:52Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\ShellBagsExplorer.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--c9830015-f8b3-433a-91ed-12f1cc8fb44b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--c9830015-f8b3-433a-91ed-12f1cc8fb44b",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\sorting.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\sorting.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 1255
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:54:22Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:57:41Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--c9830015-f8b3-433a-91ed-12f1cc8fb44b",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\sorting.ps1",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS\\sorting.ps1",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:54:22Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:54:22Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T19:54:22Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\OneDrive\\Desktop\\Registry-check\\NTFS\\sorting.ps1",
+          "dfc-ext:workingDirectory": "C:\\Users\\ktams\\OneDrive\\Desktop\\Registry-check\\NTFS",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 16710
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 2
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--8badf149-db09-441e-ad16-b6171e688b9c",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--8badf149-db09-441e-ad16-b6171e688b9c",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\SysinternalsSuite (2).lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\SysinternalsSuite (2).lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 52926214
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:57:01Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:57:01Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--8badf149-db09-441e-ad16-b6171e688b9c",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\SysinternalsSuite (2).zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\SysinternalsSuite (2).zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:53:39Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:54:01Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T18:57:01Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\SysinternalsSuite (2).zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--476d25a2-ee50-4a9c-8be2-9f293a29f51b",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--476d25a2-ee50-4a9c-8be2-9f293a29f51b",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\SysinternalsSuite.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\SysinternalsSuite.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 65536
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:14:53Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:44:34Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--476d25a2-ee50-4a9c-8be2-9f293a29f51b",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Desktop\\SysinternalsSuite",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:03:34Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:44:32Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:44:34Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Desktop\\SysinternalsSuite",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 245998
+          },
+          "dfc-ext:targetMftSequenceNumber": {
+            "@type": "xsd:integer",
+            "@value": 4
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--dc824618-4017-4b66-9872-c69fb901613f",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--dc824618-4017-4b66-9872-c69fb901613f",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\system32.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\system32.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 1048576
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:41:48Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:41:48Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--dc824618-4017-4b66-9872-c69fb901613f",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\WINDOWS\\system32",
+          "dfc-ext:targetFileName": "C:\\WINDOWS\\system32",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2024-04-01T07:21:16Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-25T20:14:28Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-26T18:41:48Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\..\\..\\WINDOWS\\system32",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--2c0684b3-949b-4e6e-8fa8-bceb5c7f7829",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--2c0684b3-949b-4e6e-8fa8-bceb5c7f7829",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\TimelineExplorer.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\TimelineExplorer.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 89767929
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:12Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:12Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--2c0684b3-949b-4e6e-8fa8-bceb5c7f7829",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\TimelineExplorer.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\TimelineExplorer.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:19:52Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:00Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T19:20:12Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\TimelineExplorer.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    },
+    {
+      "@id": "kb:lnk-entry--0e0829b6-b885-4394-bf90-845369545a5a",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:lnk-entry-file-facet--0e0829b6-b885-4394-bf90-845369545a5a",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\TimeStomper-master.lnk",
+          "observable:filePath": "C:\\Users\\ktams\\AppData\\Roaming\\Microsoft\\Windows\\Recent\\TimeStomper-master.lnk",
+          "observable:extension": ".lnk",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": 759220
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-10T16:18:27Z"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:23:22Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:23:22Z"
+          }
+        },
+        {
+          "@id": "kb:lnk-facet--0e0829b6-b885-4394-bf90-845369545a5a",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:WindowsLnkFacet"
+          ],
+          "dfc-ext:targetFilePath": "C:\\Users\\ktams\\Downloads\\TimeStomper-master.zip",
+          "dfc-ext:targetFileName": "C:\\Users\\ktams\\Downloads\\TimeStomper-master.zip",
+          "dfc-ext:targetCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:22:16Z"
+          },
+          "dfc-ext:targetModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:22:20Z"
+          },
+          "dfc-ext:targetAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-01-29T18:23:22Z"
+          },
+          "dfc-ext:relativePath": "..\\..\\..\\..\\..\\Downloads\\TimeStomper-master.zip",
+          "dfc-ext:workingDirectory": "",
+          "dfc-ext:arguments": "",
+          "dfc-ext:targetMftEntryNumber": {
+            "@type": "xsd:integer",
+            "@value": 0
+          },
+          "dfc-ext:machineId": "dfir",
+          "dfc-ext:machineMacAddress": "00:0c:29:7d:d3:1e"
+        }
+      ]
+    }
+  ]
+}
