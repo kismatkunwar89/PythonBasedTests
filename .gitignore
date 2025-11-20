@@ -1,0 +1,37 @@
+# Large data files (>100MB, exceeds GitHub limit)
+# These files need to be obtained separately or generated from source data
+**/mft_case2.jsonld
+**/usn_case2.jsonld
+**/mft_filled_case4.jsonld
+**/usn_filled_case4.jsonld
+**/usn_filled_case7.jsonld
+**/mft_filled_honest.jsonld
+
+# Stream output directories (temporary)
+stream_output/
+**/stream_output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

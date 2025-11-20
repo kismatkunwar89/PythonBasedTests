@@ -1,0 +1,92 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# AF-005: Volume Shadow Copy (VSS) Purge Detection
+#
+# Logic:
+# For each VSS infrastructure file found in MFT (System Volume Information):
+#   If infrastructure exists BUT no GUID directories remain:
+#     If USN Journal shows GUID deletions (FileDelete/FileDeleteClose/DataTruncation):
+#       → AF-005 ALERT: Anti-forensic VSS purge detected
+#
+# This query finds VSS infrastructure present but GUID directories deleted
+
+SELECT DISTINCT ?vss_infrastructure ?deleted_guid ?usn_evidence
+WHERE {
+  # Step 1: Find VSS infrastructure files in MFT (System Volume Information)
+  GRAPH <urn:graph:mft> {
+    ?mft_entry a observable:File ;
+               core:hasFacet ?file_facet, ?mft_facet .
+
+    ?file_facet a observable:FileFacet ;
+                observable:fileName ?vss_file .
+
+    ?mft_facet a dfc-ext:MftFacet ;
+               dfc-ext:parentPath ?parent_path .
+
+    # Filter for VSS infrastructure files
+    FILTER(CONTAINS(?parent_path, "System Volume Information"))
+    FILTER(
+      CONTAINS(?vss_file, "tracking.log") ||
+      CONTAINS(?vss_file, "IndexerVolumeGuid") ||
+      CONTAINS(?vss_file, "_OnDiskSnapshotProp")
+    )
+
+    BIND(?vss_file AS ?vss_infrastructure)
+  }
+
+  # Step 2: Check if GUID directories are missing from MFT
+  # (If they existed, we'd find directories matching GUID pattern)
+  OPTIONAL {
+    GRAPH <urn:graph:mft> {
+      ?guid_entry a observable:File ;
+                  core:hasFacet ?guid_file_facet, ?guid_mft_facet .
+
+      ?guid_file_facet a observable:FileFacet ;
+                       observable:fileName ?guid_name ;
+                       observable:isDirectory ?is_dir .
+
+      ?guid_mft_facet a dfc-ext:MftFacet ;
+                      dfc-ext:parentPath ?guid_parent .
+
+      # Check for GUID pattern: {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}
+      FILTER(CONTAINS(?guid_parent, "System Volume Information"))
+      FILTER(REGEX(?guid_name, "^\\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\\}$"))
+      FILTER(?is_dir = "true")
+    }
+  }
+
+  # If no GUID directories found, check USN for deletion evidence
+  FILTER(!BOUND(?guid_entry))
+
+  # Step 3: Find USN evidence of GUID directory deletion
+  GRAPH <urn:graph:usn> {
+    ?usn_file a observable:File ;
+              core:hasFacet ?usn_file_facet, ?usn_facet .
+
+    ?usn_file_facet a observable:FileFacet ;
+                    observable:fileName ?usn_filename .
+
+    ?usn_facet a dfc-ext:UsnFacet ;
+               dfc-ext:updateReasons ?update_reasons .
+
+    # Check if filename matches GUID pattern
+    FILTER(REGEX(?usn_filename, "^\\{[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}\\}$"))
+
+    # Check for deletion indicators
+    FILTER(
+      CONTAINS(?update_reasons, "FileDelete") ||
+      CONTAINS(?update_reasons, "FileDeleteClose") ||
+      CONTAINS(?update_reasons, "DataTruncation")
+    )
+
+    BIND(?usn_filename AS ?deleted_guid)
+    BIND(?update_reasons AS ?usn_evidence)
+  }
+
+  # Only report if USN deletion evidence exists
+  FILTER(BOUND(?usn_evidence))
+}
+ORDER BY ?deleted_guid

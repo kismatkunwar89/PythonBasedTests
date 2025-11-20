@@ -1,0 +1,43 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?event_type ?time ?details
+WHERE {
+  {
+    # Event 1102 - Log Clearing
+    ?event a observable:EventRecord ;
+           core:hasFacet ?std_facet, ?custom_facet .
+
+    ?std_facet a observable:EventRecordFacet ;
+               observable:eventID "1102" ;
+               observable:startTime ?time ;
+               observable:eventRecordText ?text .
+
+    ?custom_facet a dfc-ext:EventLogFacet ;
+                  dfc-ext:channel "Security" .
+
+    BIND("Event 1102 - Log Cleared" AS ?event_type)
+    BIND(?text AS ?details)
+  }
+  UNION
+  {
+    ?file a observable:File ;
+          core:hasFacet ?fileFacet, ?usnFacet .
+
+    ?fileFacet a observable:FileFacet ;
+               observable:fileName ?filename .
+
+    ?usnFacet a dfc-ext:UsnFacet ;
+              dfc-ext:updateReasons ?reasons ;
+              dfc-ext:updateTimestamp ?time .
+
+    FILTER(CONTAINS(?filename, "Security"))
+    FILTER(CONTAINS(?reasons, "DataTruncation"))
+
+    BIND("USN DataTruncation" AS ?event_type)
+    BIND(CONCAT("File: ", ?filename, " | Reasons: ", ?reasons) AS ?details)
+  }
+}
+ORDER BY ?time

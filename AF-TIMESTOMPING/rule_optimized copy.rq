@@ -1,0 +1,41 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# AF-TIMESTOMPING: Detect timestamp manipulation
+# Retrieve LNK and MFT timestamps for comparison in Python
+
+SELECT DISTINCT
+    ?lnkFile
+    ?lnkTargetPath
+    ?lnkShortcutCreated
+    ?lnkTargetCreated
+    ?mftSiCreated
+    ?mftFnCreated
+WHERE {
+  # 1. Get LNK info
+  ?lnkFile a observable:File ;
+           core:hasFacet ?lnkFacet .
+
+  ?lnkFacet a dfc-ext:WindowsLnkFacet ;
+            dfc-ext:targetMftEntryNumber ?entryNum ;
+            dfc-ext:targetCreatedTime ?lnkTargetCreated ;
+            dfc-ext:targetFilePath ?lnkTargetPath .
+
+  # Get LNK shortcut file's own creation time
+  OPTIONAL {
+    ?lnkFile core:hasFacet ?fileFacet .
+    ?fileFacet a observable:FileFacet ;
+               observable:observableCreatedTime ?lnkShortcutCreated .
+  }
+
+  # 2. Join with MFT info
+  ?mftFacet a dfc-ext:MftFacet ;
+            dfc-ext:entryNumber ?entryNum ;
+            dfc-ext:created0x10 ?mftSiCreated ;
+            dfc-ext:created0x30 ?mftFnCreated .
+
+  # 3. Filter: LNK shortcut created time != MFT $SI
+  FILTER(BOUND(?lnkShortcutCreated) && ?lnkShortcutCreated != ?mftSiCreated)
+}

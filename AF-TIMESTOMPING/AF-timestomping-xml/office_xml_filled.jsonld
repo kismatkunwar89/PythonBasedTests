@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "core": "https://ontology.unifiedcyberontology.org/uco/core/",
+    "observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+    "uco-action": "https://ontology.unifiedcyberontology.org/uco/action/",
+    "investigation": "https://ontology.caseontology.org/case/investigation/",
+    "dfc-ext": "https://www.w3.org/dfc-ext/",
+    "kb": "http://example.org/kb/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "core:hasFacet": {
+      "@type": "@id"
+    },
+    "core:object": {
+      "@type": "@id"
+    },
+    "uco-action:object": {
+      "@type": "@id"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "kb:office-doc--930a6940-936c-46b0-9cbe-399b3886b0ee",
+      "@type": "observable:File",
+      "core:hasFacet": [
+        {
+          "@id": "kb:file-facet--930a6940-936c-46b0-9cbe-399b3886b0ee",
+          "@type": [
+            "core:Facet",
+            "observable:FileFacet"
+          ],
+          "observable:fileName": "password.docx",
+          "observable:filePath": ".\\Users\\ktams\\Desktop\\Confidential\\password.docx",
+          "observable:extension": ".docx",
+          "observable:isDirectory": false,
+          "observable:sizeInBytes": {
+            "@type": "xsd:integer",
+            "@value": "13231"
+          },
+          "observable:observableCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T10:15:43.547Z"
+          },
+          "observable:modifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-06T12:27:09.179Z"
+          },
+          "observable:accessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:36:41.840Z"
+          },
+          "observable:metadataChangeTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:36:24.931Z"
+          }
+        },
+        {
+          "@id": "kb:mft-facet--930a6940-936c-46b0-9cbe-399b3886b0ee",
+          "@type": [
+            "core:Facet",
+            "observable:MftRecordFacet"
+          ],
+          "observable:mftFileID": {
+            "@type": "xsd:integer",
+            "@value": "116327"
+          },
+          "observable:mftParentID": {
+            "@type": "xsd:integer",
+            "@value": "238269"
+          },
+          "observable:mftFileNameCreatedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:37.528Z"
+          },
+          "observable:mftFileNameModifiedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:38.441Z"
+          },
+          "observable:mftFileNameAccessedTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:38.441Z"
+          },
+          "observable:mftFileNameRecordChangeTime": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:38.496Z"
+          }
+        },
+        {
+          "@id": "kb:content-facet--930a6940-936c-46b0-9cbe-399b3886b0ee",
+          "@type": [
+            "core:Facet",
+            "observable:ContentDataFacet"
+          ],
+          "observable:creator": "dfir rocks"
+        },
+        {
+          "@id": "kb:xml-metadata-facet--930a6940-936c-46b0-9cbe-399b3886b0ee",
+          "@type": [
+            "core:Facet",
+            "dfc-ext:OfficeXmlMetadataFacet"
+          ],
+          "dfc-ext:dctermsCreated": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:09:00Z"
+          },
+          "dfc-ext:dctermsModified": {
+            "@type": "xsd:dateTime",
+            "@value": "2025-03-04T01:10:00Z"
+          },
+          "dfc-ext:lastModifiedBy": "dfir rocks",
+          "dfc-ext:metadataSource": "docProps/core.xml"
+        }
+      ]
+    }
+  ]
+}

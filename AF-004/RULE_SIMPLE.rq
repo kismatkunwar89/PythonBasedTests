@@ -1,0 +1,55 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+
+# AF-004 Simplified: VSS Purge Detection (No REGEX)
+
+SELECT DISTINCT ?vss_infrastructure ?deleted_guid ?usn_evidence
+WHERE {
+  # Step 1: Find VSS infrastructure files in MFT
+  GRAPH <urn:graph:mft> {
+    ?mft_entry a observable:File ;
+               core:hasFacet ?file_facet, ?mft_facet .
+
+    ?file_facet a observable:FileFacet ;
+                observable:fileName ?vss_file .
+
+    ?mft_facet a dfc-ext:MftFacet ;
+               dfc-ext:parentPath ?parent_path .
+
+    FILTER(CONTAINS(?parent_path, "System Volume Information"))
+    FILTER(
+      CONTAINS(?vss_file, "tracking.log") ||
+      CONTAINS(?vss_file, "IndexerVolumeGuid") ||
+      CONTAINS(?vss_file, "_OnDiskSnapshotProp")
+    )
+
+    BIND(?vss_file AS ?vss_infrastructure)
+  }
+
+  # Step 2: Find USN evidence of GUID deletion (use CONTAINS instead of REGEX)
+  GRAPH <urn:graph:usn> {
+    ?usn_file a observable:File ;
+              core:hasFacet ?usn_file_facet, ?usn_facet .
+
+    ?usn_file_facet a observable:FileFacet ;
+                    observable:fileName ?usn_filename .
+
+    ?usn_facet a dfc-ext:UsnFacet ;
+               dfc-ext:updateReasons ?update_reasons .
+
+    # Check if filename contains '{' (GUID pattern without expensive REGEX)
+    FILTER(CONTAINS(?usn_filename, "{"))
+
+    # Check for deletion indicators
+    FILTER(
+      CONTAINS(?update_reasons, "FileDelete") ||
+      CONTAINS(?update_reasons, "FileDeleteClose") ||
+      CONTAINS(?update_reasons, "DataTruncation")
+    )
+
+    BIND(?usn_filename AS ?deleted_guid)
+    BIND(?update_reasons AS ?usn_evidence)
+  }
+}
+ORDER BY ?deleted_guid

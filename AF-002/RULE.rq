@@ -1,0 +1,84 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# AF-002: Selective Browser History Deletion Detection
+#
+# Logic:
+# For each domain X found in IndexedDB artifacts (MFT):
+#   If domain X is NOT found in Chrome History SQLite database:
+#     If USN Journal shows History file was modified (DataTruncation/DataOverwrite/DataExtend):
+#       → AF-002 ALERT: Selective deletion detected with tampering evidence
+#
+# This query finds domains in MFT IndexedDB but missing from History database
+
+SELECT DISTINCT ?domain ?mft_file ?usn_evidence
+WHERE {
+  # Step 1: Find domains in IndexedDB files (MFT)
+  GRAPH <urn:graph:mft> {
+    ?mft_entry a observable:File ;
+               core:hasFacet ?file_facet, ?mft_facet .
+
+    ?file_facet a observable:FileFacet ;
+                observable:filePath ?mft_path .
+
+    ?mft_facet a dfc-ext:MftFacet ;
+               dfc-ext:parentPath ?parent_path .
+
+    # Filter for IndexedDB files containing domain names
+    FILTER(CONTAINS(?parent_path, "IndexedDB"))
+
+    # Extract domain from path (e.g., https_www.reddit.com_0.indexeddb.leveldb)
+    # Use STRBEFORE + STRAFTER instead of REPLACE (more reliable in SPARQL)
+    BIND(STRBEFORE(STRAFTER(?parent_path, "https_www."), "_") AS ?domain)
+    FILTER(?domain != "")  # Skip empty extractions
+  }
+
+  # Step 2: Check if domain exists in Chrome History URLs
+  OPTIONAL {
+    GRAPH <urn:graph:history> {
+      ?url_entry a observable:URL ;
+                 core:hasFacet ?url_facet .
+      ?url_facet a observable:URLFacet ;
+                 observable:fullValue ?url_value .
+
+      FILTER(CONTAINS(?url_value, ?domain))
+    }
+  }
+
+  # Step 3: If domain NOT found in History, check USN for tampering
+  FILTER(!BOUND(?url_entry))
+
+  # Find USN evidence of History file modification
+  OPTIONAL {
+    GRAPH <urn:graph:usn> {
+      ?usn_file a observable:File ;
+                core:hasFacet ?usn_file_facet, ?usn_facet .
+
+      ?usn_file_facet a observable:FileFacet ;
+                      observable:fileName ?usn_filename .
+
+      ?usn_facet a dfc-ext:UsnFacet ;
+                 dfc-ext:updateReasons ?update_reasons .
+
+      # Check if it's the History file
+      FILTER(CONTAINS(?usn_filename, "History"))
+
+      # Check for tampering indicators
+      FILTER(
+        CONTAINS(?update_reasons, "DataTruncation") ||
+        CONTAINS(?update_reasons, "DataOverwrite") ||
+        CONTAINS(?update_reasons, "DataExtend")
+      )
+
+      BIND(?update_reasons AS ?usn_evidence)
+    }
+  }
+
+  # Only report if USN evidence exists (selective deletion with tampering)
+  FILTER(BOUND(?usn_evidence))
+
+  BIND(?parent_path AS ?mft_file)
+}
+ORDER BY ?domain

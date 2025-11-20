@@ -1,0 +1,38 @@
+PREFIX core: <https://ontology.unifiedcyberontology.org/uco/core/>
+PREFIX observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
+PREFIX dfc-ext: <https://www.w3.org/dfc-ext/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# AF-TIMESTOMPING-XML: Detect timestamp manipulation via Office XML metadata
+# Office documents (docx, xlsx, pptx) contain internal XML metadata that preserves
+# original creation timestamps even when MFT timestamps are manipulated.
+
+SELECT DISTINCT
+    ?officeFile
+    ?filePath
+    ?xmlCreated
+    ?mftSiCreated
+    ?mftFnCreated
+WHERE {
+  # 1. Find Office documents with XML metadata facet
+  ?officeFile a observable:File ;
+              core:hasFacet ?xmlFacet , ?mftFacet , ?fileFacet .
+
+  # 2. Get Office XML metadata (dcterms:created from docProps/core.xml)
+  ?xmlFacet a dfc-ext:OfficeXmlMetadataFacet ;
+            dfc-ext:dctermsCreated ?xmlCreated .
+
+  # 3. Get MFT timestamps
+  ?mftFacet a observable:MftRecordFacet ;
+            observable:mftFileNameCreatedTime ?mftFnCreated .
+
+  # 4. Get file path
+  ?fileFacet a observable:FileFacet ;
+             observable:filePath ?filePath ;
+             observable:observableCreatedTime ?mftSiCreated .
+
+  # 5. CRITICAL FILTER: XML metadata shows earlier time than MFT $SI
+  # This indicates $STANDARD_INFORMATION was tampered after file creation
+  FILTER(xsd:dateTime(?xmlCreated) < xsd:dateTime(?mftSiCreated))
+}
+ORDER BY ?filePath
